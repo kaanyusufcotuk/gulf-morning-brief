@@ -92,6 +92,19 @@ footer b{color:var(--accent-deep);font-weight:700}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
 .editor-note a{color:var(--accent);font-weight:700}
+
+.scan{margin-top:16px;padding:18px 20px;background:var(--soft-2);border:1px solid var(--line-soft);border-radius:var(--radius)}
+.scan-title{margin:0;font-family:Fraunces,Georgia,serif;font-variation-settings:"SOFT" 100;font-weight:540;font-size:21px;color:var(--accent-deep)}
+.scan-help{margin:4px 0 14px;font-size:14px;color:var(--muted)}
+.scan-row{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.scan-row label{display:flex;flex-direction:column;gap:4px;font-size:12.5px;font-weight:700;color:var(--muted)}
+.scan input[type="date"]{min-height:44px;padding:0 14px;font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px}
+.scan input:disabled{opacity:.6}
+.scan .bar-status{margin-top:8px}
+.scan-token{margin-top:6px;font-size:14px}
+.scan-token summary{cursor:pointer;font-weight:700;color:var(--accent);padding-block:6px}
+.scan-token p{margin:4px 0 10px;color:var(--muted)}
+.scan-token .search{flex:1 1 220px;width:auto}
 </style></head><body>
 <div id="root"><noscript>This page needs JavaScript.</noscript></div>
 <script>(function () {
@@ -105,8 +118,13 @@ var CAT = {
 var CAT_ORDER = Object.keys(CAT);
 var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 var FIRST_OPEN = 5;
+var REPO = (function () {
+  var m = /^([a-z0-9-]+)\.github\.io$/i.exec(location.hostname), seg = location.pathname.split('/')[1];
+  return m && seg ? m[1] + '/' + seg : 'kaanyusufcotuk/gulf-morning-brief';
+})();
+var WORKFLOW = 'search.yml', TKEY = 'gmb:token', MAX_DAYS = 14;
 
-var DATA, ids, DKEY, published, draft, isEditor;
+var DATA, LIVE, ids, DKEY, published, draft, isEditor, searching = false;
 var f = { country: 'all', cat: 'all', q: '', only: false };
 var collapsed = {}, expanded = {};
 var statusTimer = null, statusText = '';
@@ -165,6 +183,7 @@ function renderShell() {
     '<div class="wrap">' +
     '<header class="masthead"><p class="kicker">GCC + IRAQ \u00b7 DAILY SCAN</p><h1>Gulf Morning Brief</h1><div class="dateline" id="dateline"></div></header>' +
     '<div id="note"></div>' +
+    (isEditor ? scanHtml() : '') +
     '<div class="controls" id="controls">' +
       '<input class="search" id="q" type="search" placeholder="Search headlines" aria-label="Search headlines" autocomplete="off">' +
       '<div class="chips" id="cchips" role="group" aria-label="Filter by country"></div>' +
@@ -195,9 +214,29 @@ function renderHead() {
   document.title = 'Gulf Morning Brief \u00b7 ' + DATA.edition.titleDate + (n ? ' \u00b7 ' + plural(n, 'story', 'stories') : '');
 }
 
+function scanHtml() {
+  var hasTok = !!getToken();
+  return '<section class="scan" aria-labelledby="scan-title">' +
+    '<h2 class="scan-title" id="scan-title">New search</h2>' +
+    '<p class="scan-help">Pick a date range and the site searches Google News for every country. The results replace the list below so you can tick what to publish. Takes about a minute.</p>' +
+    '<div class="scan-row">' +
+      '<label>From<input type="date" id="sfrom" value="' + isoDay(-1) + '" max="' + isoDay(0) + '"></label>' +
+      '<label>To<input type="date" id="sto" value="' + isoDay(0) + '" max="' + isoDay(0) + '"></label>' +
+      '<button type="button" class="btn primary" id="sgo" data-act="search">Search</button>' +
+    '</div>' +
+    '<span class="bar-status" id="sstatus" aria-live="polite"></span>' +
+    '<details class="scan-token" id="stoken"' + (hasTok ? '' : ' open') + '><summary id="stoksum">GitHub access key · ' + (hasTok ? 'saved' : 'not set') + '</summary>' +
+      '<p>The search runs on GitHub, so this page needs a key that can start it. Create a fine-grained token at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">github.com/settings/personal-access-tokens</a> with access to only <b>' + esc(REPO.split('/')[1]) + '</b> and these permissions: <b>Actions: Read and write</b>, <b>Contents: Read</b>. The key is kept in this browser only.</p>' +
+      '<div class="scan-row"><input class="search" id="tok" type="password" placeholder="github_pat_…" aria-label="GitHub access key" autocomplete="off">' +
+      '<button type="button" class="btn" data-act="savetok">Save</button><button type="button" class="btn" data-act="cleartok">Remove</button></div>' +
+    '</details></section>';
+}
+
 function renderNote() {
+  var fresh = DATA !== LIVE && !sameEdition(DATA, LIVE);
   $('note').innerHTML = isEditor
-    ? '<p class="editor-note"><b>Editor view.</b> Tick the stories to publish, press <b>Download data.json</b>, then upload that file to your GitHub repository. This page cannot change the live site by itself. <a href="./">View the live site</a></p>'
+    ? '<p class="editor-note"><b>Editor view.</b> Tick the stories to publish, press <b>Download data.json</b>, then upload that file to your GitHub repository. This page cannot change the live site by itself. <a href="./">View the live site</a>' +
+      (fresh ? '<br><b>Showing new search results for ' + esc(DATA.edition.label) + '.</b> The live site still shows ' + esc(LIVE.edition.label) + ' until you upload the new data.json.' : '') + '</p>'
     : '';
   document.body.classList.toggle('editor', isEditor);
 }
@@ -290,7 +329,7 @@ function renderFoot() {
   var h = (DATA.footer || []).map(function (l) { return esc(l); }).join('<br>');
   var ck = DATA.checks;
   if (ck) h += '<br>Every link was checked before publishing. Left out: ' + ck.dead + ' that did not open, ' + ck.nodate + ' without a verifiable date, ' + ck.paywall + ' behind a paywall.';
-  h += '<br><b>Refreshed daily at 11:29 Istanbul</b>';
+  if (!DATA.edition.generatedAt) h += '<br><b>Refreshed daily at 11:29 Istanbul</b>';
   if (DATA.edition.updated) h += ' \u00b7 last scan ' + esc(DATA.edition.updated);
   if (DATA.curatedAt) { var st = fmtStamp(DATA.curatedAt); if (st) h += ' \u00b7 selection published ' + esc(st); }
   $('foot').innerHTML = h;
@@ -302,7 +341,7 @@ function renderBar() {
   var dirty = !sameSet(draft, published);
   w.innerHTML =
     '<div class="bar" role="region" aria-label="Editor actions"><div class="bar-in">' +
-    '<div class="bar-info"><b>' + draft.size + '</b> selected' + (dirty ? ' \u00b7 differs from the live site' : ' \u00b7 matches the live site') +
+    '<div class="bar-info"><b>' + draft.size + '</b> selected' + (!sameEdition(DATA, LIVE) ? ' \u00b7 new search, not on the live site yet' : dirty ? ' \u00b7 differs from the live site' : ' \u00b7 matches the live site') +
     '<span class="bar-status" id="status" aria-live="polite">' + esc(statusText) + '</span></div>' +
     '<div class="bar-actions">' +
     '<button type="button" class="btn" data-act="reset"' + (dirty ? '' : ' disabled') + '>Reset</button>' +
@@ -372,6 +411,99 @@ function onClick(e) {
   if (act === 'reset') { draft = new Set(DATA.selected); saveDraft(); renderHead(); renderControls(); renderList(); renderBar(); }
   if (act === 'copy') copySelected();
   if (act === 'download') downloadData();
+  if (act === 'search') runSearch();
+  if (act === 'savetok') {
+    var v = $('tok').value.trim();
+    if (!v) { scanStatus('Paste the key first.'); return; }
+    setToken(v); $('tok').value = ''; $('stoken').open = false;
+    $('stoksum').textContent = 'GitHub access key · saved';
+    scanStatus('Key saved in this browser.');
+  }
+  if (act === 'cleartok') {
+    setToken(''); $('tok').value = '';
+    $('stoksum').textContent = 'GitHub access key · not set';
+    scanStatus('Key removed from this browser.');
+  }
+}
+
+/* ---------- search ---------- */
+
+function isoDay(offset) { return new Date(Date.now() + 3 * 36e5 + offset * 864e5).toISOString().slice(0, 10); }
+function getToken() { try { return localStorage.getItem(TKEY) || ''; } catch (e) { return ''; } }
+function setToken(t) { try { if (t) localStorage.setItem(TKEY, t); else localStorage.removeItem(TKEY); } catch (e) {} }
+function scanStatus(t) { var el = $('sstatus'); if (el) el.textContent = t; }
+
+function gh(path, opts) {
+  opts = opts || {};
+  return fetch('https://api.github.com/repos/' + REPO + path, {
+    method: opts.method || 'GET',
+    cache: 'no-store',
+    headers: {
+      Accept: opts.raw ? 'application/vnd.github.raw+json' : 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      Authorization: 'Bearer ' + getToken()
+    },
+    body: opts.body ? JSON.stringify(opts.body) : undefined
+  });
+}
+
+function readCandidatesApi() {
+  return gh('/contents/candidates.json?ref=main', { raw: true }).then(function (r) {
+    if (!r.ok) throw new Error('Couldn’t read the results (GitHub answered ' + r.status + '). Check that the key has Contents: Read.');
+    return r.json();
+  });
+}
+
+function waitForRun(t0) {
+  return new Promise(function (resolve, reject) {
+    var tries = 0;
+    (function poll() {
+      if (++tries > 150) { reject(new Error('The search is taking too long. Check the Actions tab of the repository on GitHub.')); return; }
+      gh('/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=5')
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) {
+          var run = j && j.workflow_runs.filter(function (x) { return Date.parse(x.created_at) >= t0 - 15000; }).pop();
+          if (run && run.status === 'completed') {
+            if (run.conclusion === 'success') resolve();
+            else reject(new Error('The search failed on GitHub (' + run.conclusion + '). Details: ' + run.html_url));
+            return;
+          }
+          scanStatus(!run ? 'Waiting for GitHub to start the search…' : run.status === 'queued' ? 'Queued on GitHub…' : 'Searching… this takes about a minute.');
+          setTimeout(poll, 4000);
+        }, function () { setTimeout(poll, 4000); });
+    })();
+  });
+}
+
+function setScanBusy(on) {
+  searching = on;
+  ['sfrom', 'sto', 'sgo'].forEach(function (id) { $(id).disabled = on; });
+}
+
+function runSearch() {
+  if (searching) return;
+  var from = $('sfrom').value, to = $('sto').value;
+  if (!from || !to) { scanStatus('Pick both dates.'); return; }
+  if (from > to) { scanStatus('The start date is after the end date.'); return; }
+  if ((Date.parse(to) - Date.parse(from)) / 864e5 + 1 > MAX_DAYS) { scanStatus('Pick ' + MAX_DAYS + ' days or fewer.'); return; }
+  if (!getToken()) { $('stoken').open = true; scanStatus('Add your GitHub access key first.'); return; }
+  setScanBusy(true);
+  scanStatus('Starting the search…');
+  var t0 = Date.now();
+  gh('/actions/workflows/' + WORKFLOW + '/dispatches', { method: 'POST', body: { ref: 'main', inputs: { start: from, end: to } } })
+    .then(function (r) {
+      if (r.status === 204) return waitForRun(t0);
+      if (r.status === 401) throw new Error('GitHub rejected the key. Check that it was pasted fully and hasn’t expired.');
+      if (r.status === 403 || r.status === 404) throw new Error('This key can’t start searches on ' + REPO + '. Give it Actions: Read and write for this repository.');
+      throw new Error('GitHub answered ' + r.status + '. Try again in a minute.');
+    })
+    .then(function () { scanStatus('Search finished. Loading results…'); return readCandidatesApi(); })
+    .then(function (c) {
+      load(c);
+      scanStatus(c.stories.length ? 'Found ' + plural(c.stories.length, 'story', 'stories') + '. Tick the ones to publish, then download data.json.' : 'The search found no stories for these dates.');
+    })
+    .catch(function (e) { scanStatus(e.message || 'Something went wrong. Try again.'); })
+    .then(function () { setScanBusy(false); });
 }
 
 function onChange(e) {
@@ -389,19 +521,35 @@ function onChange(e) {
 
 function editorFromPage() { return window.GMB_EDITOR === true; }
 
-function start(data) {
+function sameEdition(a, b) { return a === b || (!!a.edition.generatedAt && a.edition.generatedAt === b.edition.generatedAt); }
+
+// Show new search results only if they are newer than what the live site has.
+function newer(cand, live) {
+  var g = cand && cand.edition && cand.edition.generatedAt;
+  return !!g && Array.isArray(cand.stories) && !sameEdition(cand, live) && g > (live.curatedAt || '');
+}
+
+function load(data) {
   DATA = data;
   ids = {};
   DATA.stories.forEach(function (s) { ids[s.id] = true; });
-  DKEY = 'gmb:draft:' + DATA.edition.date;
-  published = new Set(DATA.selected);
+  DKEY = 'gmb:draft:' + (DATA.edition.generatedAt || DATA.edition.date);
+  published = new Set(sameEdition(DATA, LIVE) ? LIVE.selected : []);
   draft = loadDraft();
+  f = { country: 'all', cat: 'all', q: '', only: false };
+  collapsed = {}; expanded = {};
+  $('q').value = '';
+  renderAll();
+}
+
+function start(live, cand) {
+  LIVE = live;
   isEditor = editorFromPage();
   renderShell();
   $('root').addEventListener('click', onClick);
   $('root').addEventListener('change', onChange);
   $('q').addEventListener('input', function (e) { f.q = e.target.value.trim(); renderControls(); renderList(); });
-  renderAll();
+  load(newer(cand, live) ? cand : live);
 }
 
 function fail() {
@@ -409,9 +557,22 @@ function fail() {
     '<p class="empty">Couldn\u2019t load the stories. Open this page through its web address instead of as a local file, and check that data.json sits next to index.html.</p></div>';
 }
 
-fetch('data.json?v=' + Date.now(), { cache: 'no-store' })
-  .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
-  .then(start)
+function getJson(url) {
+  return fetch(url + '?v=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); });
+}
+
+// The editor also looks for the latest search results; the API copy is fresher than the Pages one.
+function loadCandidates() {
+  var pages = function () { return getJson('candidates.json'); };
+  return getToken() ? readCandidatesApi().catch(pages) : pages();
+}
+
+getJson('data.json')
+  .then(function (live) {
+    if (!editorFromPage()) return start(live, null);
+    return loadCandidates().then(function (c) { start(live, c); }, function () { start(live, null); });
+  })
   .catch(fail);
 
 })();

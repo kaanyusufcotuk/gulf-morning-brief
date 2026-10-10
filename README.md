@@ -17,9 +17,20 @@
 4. Depoda **Add file → Upload files** ile indirilen `data.json`'u yükle (aynı adlı dosyanın üzerine yazar), **Commit changes**.
 5. 1–2 dakika sonra herkes yeni seçimi görür (sayfayı yenilemek gerekebilir).
 
-## Yeni gün: yeni haberler
+## Yeni gün: tarih seçip arama yapma
 
-Yeni haber listesi `data.json` içindeki `stories` dizisine girer ve `selected` boşaltılır. Bu dosyayı hazırladığımda aynı şekilde depoya yüklersin.
+Edit sayfasındaki **New search** kutusundan tarih aralığı seçip **Search**'e basınca site, GitHub Actions üzerinde her ülke için Google News araması yapar (en fazla 14 gün, ~1 dakika). Sonuçlar `candidates.json` dosyasına yazılır ve edit sayfasındaki listenin yerine geçer. Canlı site, yeni `data.json`'u yükleyene kadar eski seçimi göstermeye devam eder.
+
+İlk seferde sayfa bir **GitHub erişim anahtarı** ister (anahtar sadece o tarayıcıda saklanır):
+
+1. https://github.com/settings/personal-access-tokens/new adresini aç.
+2. **Repository access** → *Only select repositories* → `gulf-morning-brief`.
+3. **Permissions** → **Actions: Read and write**, **Contents: Read**.
+4. Oluşan `github_pat_…` anahtarını edit sayfasındaki kutuya yapıştırıp **Save**'e bas.
+
+Anahtar olmadan da arama yapılabilir: depoda **Actions → Search news → Run workflow**, tarihleri gir. Bitince edit sayfasını yenile.
+
+Arama kodu: `scripts/search_news.py`, iş akışı: `.github/workflows/search.yml`.
 
 ## Notlar
 
