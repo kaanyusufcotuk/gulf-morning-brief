@@ -30,6 +30,16 @@ Haberleri işaretle ya da işaretini kaldır. Her değişiklik birkaç saniye so
 
 Yeni aramanın sonuçlarında ilk haberi işaretlediğin anda canlı site o tarih aralığına geçer.
 
+## inflow.bio linkleri
+
+İşaretlenen her haberin altında bir **inflow.bio linki** kutusu çıkar:
+
+1. **Copy original link** ile haberin orijinal linkini kopyala.
+2. inflow.bio panelinde bu linkle yeni bir link oluştur.
+3. Oluşan inflow.bio linkini kutuya yapıştır; kutudan çıkınca otomatik yayınlanır.
+
+Canlı sitede o haber inflow.bio linkiyle açılır. Kutu boş kalırsa orijinal link kullanılır. inflow.bio'nun açık bir API'si olmadığı için bu adım elle yapılıyor.
+
 ## Notlar
 
 - Siteyi yalnızca depoya yazma izni olan bir anahtarla değiştirmek mümkün. `edit.html` adresini bilen biri anahtar olmadan bir şey yayınlayamaz.

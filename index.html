@@ -102,6 +102,14 @@ footer b{color:var(--accent-deep);font-weight:700}
 .scan input:disabled{opacity:.6}
 .scan .bar-status{margin-top:8px}
 .bar-status.err{color:var(--alarm)}
+.ilink{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.ifield{flex:1 1 220px;min-width:0;min-height:40px;padding:0 14px;font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;transition:border-color .2s,box-shadow .2s}
+.ifield:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px var(--soft)}
+.ifield.bad{border-color:var(--alarm)}
+.ifield::placeholder{color:var(--muted)}
+.mini{min-height:40px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--accent);font-size:13px;font-weight:700;cursor:pointer}
+.mini:hover{background:var(--soft)}
+.chip.inflow{background:var(--accent);color:var(--bg)}
 .scan-token{margin-top:6px;font-size:14px}
 .scan-token summary{cursor:pointer;font-weight:700;color:var(--accent);padding-block:6px}
 .scan-token p{margin:4px 0 10px;color:var(--muted)}
@@ -131,7 +139,7 @@ var DATA, LIVE, published, draft, isEditor, searching = false;
 var f = { country: 'all', cat: 'all', q: '', only: false };
 var collapsed = {}, expanded = {};
 var statusTimer = null;
-var saveTimer = null, saving = false, saveState = '', saveMsg = '';
+var saveTimer = null, saving = false, saveState = '', saveMsg = '', edits = 0;
 
 var $ = function (id) { return document.getElementById(id); };
 function esc(s) {
@@ -264,10 +272,17 @@ function storyHtml(s) {
   var pick = isEditor
     ? '<label class="pick"><input type="checkbox" data-pick="' + esc(s.id) + '"' + (sel ? ' checked' : '') + ' aria-label="Select: ' + esc(s.t) + '"></label>' : '';
   var chips = '<span class="chip' + (s.k === 'emergency' ? ' alarm' : '') + '">' + esc(CAT[s.k] || s.k) + '</span>' +
-    (s.r ? '<span class="chip outline">roundup</span>' : '');
+    (s.r ? '<span class="chip outline">roundup</span>' : '') +
+    (isEditor && s.iu ? '<span class="chip inflow">inflow.bio</span>' : '');
+  // Readers go through the inflow.bio link when one is set; the editor keeps the original.
+  var href = isEditor ? s.u : (s.iu || s.u);
+  var ilink = isEditor && sel
+    ? '<div class="ilink"><input class="ifield" type="url" inputmode="url" data-inflow="' + esc(s.id) + '" value="' + esc(s.iu || '') + '" placeholder="Paste the inflow.bio link" aria-label="inflow.bio link for: ' + esc(s.t) + '" autocomplete="off" spellcheck="false">' +
+      '<button type="button" class="mini" data-copyurl="' + esc(s.id) + '">Copy original link</button></div>'
+    : '';
   return '<li class="story' + (isEditor && sel ? ' sel' : '') + '">' + pick +
-    '<div class="body"><a class="headline" href="' + esc(safeUrl(s.u)) + '" target="_blank" rel="noopener noreferrer">' + esc(s.t) + '</a>' +
-    '<div class="meta">' + chips + '<span class="src">' + esc(s.s) + '</span><span class="sep">\u00b7</span><span class="time">' + fmtDay(s.d) + '</span></div></div></li>';
+    '<div class="body"><a class="headline" href="' + esc(safeUrl(href)) + '" target="_blank" rel="noopener noreferrer">' + esc(s.t) + '</a>' +
+    '<div class="meta">' + chips + '<span class="src">' + esc(s.s) + '</span><span class="sep">\u00b7</span><span class="time">' + fmtDay(s.d) + '</span></div>' + ilink + '</div></li>';
 }
 
 function renderList() {
@@ -334,7 +349,7 @@ function renderBar() {
   if (!isEditor) { w.innerHTML = ''; return; }
   w.innerHTML =
     '<div class="bar" role="region" aria-label="Editor actions"><div class="bar-in">' +
-    '<div class="bar-info"><b>' + draft.size + '</b> selected' +
+    '<div class="bar-info"><b>' + draft.size + '</b> selected · <b>' + withInflow() + '</b> with inflow.bio link' +
     '<span class="bar-status' + (saveState === 'error' ? ' err' : '') + '" id="status" aria-live="polite">' + esc(saveMsg) + '</span></div>' +
     '<div class="bar-actions">' +
     (saveState === 'error' && getToken() ? '<button type="button" class="btn primary" data-act="retry">Try again</button>' : '') +
@@ -368,6 +383,7 @@ function b64(str) {
 }
 
 function scheduleSave() {
+  edits++;
   clearTimeout(saveTimer); saveTimer = null;
   if (!getToken()) { setSave('error', 'Not published: add your GitHub access key in the New search box.'); return; }
   setSave('pending', 'Publishing in a moment\u2026');
@@ -402,15 +418,20 @@ function publish() {
   clearTimeout(saveTimer); saveTimer = null;
   if (saving) return; // the running save reschedules itself if more ticks came in
   saving = true;
-  var base = DATA, picked = new Set(draft);
+  var base = DATA, picked = new Set(draft), mark = edits;
   var next = JSON.parse(JSON.stringify(base));
   next.selected = Array.from(picked);
   next.curatedAt = new Date().toISOString();
   setSave('saving', 'Publishing\u2026');
   putData(next, 0)
     .then(function () {
-      LIVE = next;
-      if (DATA === base) { DATA = next; published = picked; }
+      if (DATA === base) {
+        // Keep editing the same objects so link edits typed during the save aren't lost.
+        DATA.selected = next.selected; DATA.curatedAt = next.curatedAt;
+        LIVE = DATA; published = picked;
+      } else {
+        LIVE = next;
+      }
       setSave('saved', 'Published. The live link shows it within about a minute.');
       renderNote(); renderHead();
     }, function (e) {
@@ -418,7 +439,7 @@ function publish() {
     })
     .then(function () {
       saving = false;
-      if (saveState === 'saved' && !sameSet(draft, published)) scheduleSave();
+      if (saveState === 'saved' && edits !== mark) scheduleSave();
     });
 }
 
@@ -434,7 +455,7 @@ function copySelected() {
     var list = sorted(DATA.stories.filter(function (s) { return s.c === c.id && draft.has(s.id); }));
     if (!list.length) return;
     lines.push('', c.name);
-    list.forEach(function (s) { lines.push('- ' + s.t + ' (' + s.s + ', ' + fmtDay(s.d) + ') ' + s.u); });
+    list.forEach(function (s) { lines.push('- ' + s.t + ' (' + s.s + ', ' + fmtDay(s.d) + ') ' + (s.iu || s.u)); });
   });
   var text = lines.join('\n');
   function ok() { setStatus('Copied ' + plural(draft.size, 'story', 'stories') + '.'); }
@@ -451,8 +472,13 @@ function copySelected() {
 }
 
 function onClick(e) {
-  var t = e.target.closest('[data-country],[data-cat],[data-toggle],[data-more],[data-act],[data-reset]');
+  var t = e.target.closest('[data-country],[data-cat],[data-toggle],[data-more],[data-act],[data-reset],[data-copyurl]');
   if (!t) return;
+  if (t.hasAttribute('data-copyurl')) {
+    var cs = storyById(t.getAttribute('data-copyurl'));
+    if (cs) copyText(cs.u, 'Original link copied. Create the inflow.bio link from it, then paste it here.');
+    return;
+  }
   if (t.hasAttribute('data-country')) { f.country = t.getAttribute('data-country'); renderControls(); renderList(); return; }
   if (t.hasAttribute('data-cat')) { f.cat = t.getAttribute('data-cat'); renderControls(); renderList(); return; }
   if (t.hasAttribute('data-toggle')) { var c = t.getAttribute('data-toggle'); collapsed[c] = !collapsed[c]; renderList(); return; }
@@ -570,7 +596,39 @@ function onChange(e) {
     renderList(); scheduleSave();
     return;
   }
+  if (t.hasAttribute && t.hasAttribute('data-inflow')) { setInflow(t); return; }
   if (t.id === 'only') { f.only = t.checked; renderControls(); renderList(); }
+}
+
+function storyById(id) { return DATA.stories.filter(function (s) { return s.id === id; })[0]; }
+function withInflow() { return DATA.stories.filter(function (s) { return s.iu && draft.has(s.id); }).length; }
+
+function setInflow(input) {
+  var s = storyById(input.getAttribute('data-inflow'));
+  if (!s) return;
+  var v = input.value.trim();
+  if (v && !/^https?:\/\/[^\s"'<>]+$/i.test(v)) {
+    input.classList.add('bad');
+    setStatus('That doesn’t look like a link. Paste the full address, starting with https://');
+    return;
+  }
+  input.classList.remove('bad');
+  if ((s.iu || '') === v) return;
+  if (v) s.iu = v; else delete s.iu;
+  renderList(); scheduleSave();
+}
+
+function copyText(text, okMsg) {
+  function fallback() {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    var done = false;
+    try { done = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    setStatus(done ? okMsg : 'Copy isn’t available in this browser.');
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { setStatus(okMsg); }, fallback); else fallback();
 }
 
 function editorFromPage() { return window.GMB_EDITOR === true; }
