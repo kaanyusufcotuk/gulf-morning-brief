@@ -464,7 +464,8 @@
    "d": "2026-10-11",
    "k": "emergency",
    "id": "ae-1",
-   "n": 0
+   "n": 0,
+   "iu": "https://inflow.ws/iuc4rb"
   },
   {
    "c": "ae",
@@ -2882,5 +2883,5 @@
   "Covers October 10–11, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-10T23:51:23.501Z"
+ "curatedAt": "2026-10-10T23:51:29.986Z"
 }
