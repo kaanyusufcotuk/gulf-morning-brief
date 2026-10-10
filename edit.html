@@ -101,6 +101,7 @@ footer b{color:var(--accent-deep);font-weight:700}
 .scan input[type="date"]{min-height:44px;padding:0 14px;font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px}
 .scan input:disabled{opacity:.6}
 .scan .bar-status{margin-top:8px}
+.bar-status.err{color:var(--alarm)}
 .scan-token{margin-top:6px;font-size:14px}
 .scan-token summary{cursor:pointer;font-weight:700;color:var(--accent);padding-block:6px}
 .scan-token p{margin:4px 0 10px;color:var(--muted)}
@@ -125,10 +126,13 @@ var REPO = (function () {
 })();
 var WORKFLOW = 'search.yml', TKEY = 'gmb:token', MAX_DAYS = 14;
 
-var DATA, LIVE, ids, DKEY, published, draft, isEditor, searching = false;
+var SAVE_DELAY = 2500;
+
+var DATA, LIVE, published, draft, isEditor, searching = false;
 var f = { country: 'all', cat: 'all', q: '', only: false };
 var collapsed = {}, expanded = {};
-var statusTimer = null, statusText = '';
+var statusTimer = null;
+var saveTimer = null, saving = false, saveState = '', saveMsg = '';
 
 var $ = function (id) { return document.getElementById(id); };
 function esc(s) {
@@ -140,17 +144,6 @@ function safeUrl(u) { return /^https?:\/\//i.test(u) ? u : '#'; }
 function fmtDay(iso) { var p = iso.split('-'); return MONTHS[+p[1] - 1] + ' ' + (+p[2]); }
 function plural(n, one, many) { return n + ' ' + (n === 1 ? one : many); }
 
-function loadDraft() {
-  try {
-    var raw = localStorage.getItem(DKEY);
-    if (raw) {
-      var a = JSON.parse(raw);
-      if (Array.isArray(a)) return new Set(a.filter(function (x) { return ids[x]; }));
-    }
-  } catch (e) {}
-  return new Set(DATA.selected);
-}
-function saveDraft() { try { localStorage.setItem(DKEY, JSON.stringify(Array.from(draft))); } catch (e) {} }
 function sameSet(a, b) {
   if (a.size !== b.size) return false;
   var ok = true;
@@ -227,7 +220,7 @@ function scanHtml() {
     '</div>' +
     '<span class="bar-status" id="sstatus" aria-live="polite"></span>' +
     '<details class="scan-token" id="stoken"' + (hasTok ? '' : ' open') + '><summary id="stoksum">GitHub access key · ' + (hasTok ? 'saved' : 'not set') + '</summary>' +
-      '<p>The search runs on GitHub, so this page needs a key that can start it. Create a fine-grained token at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">github.com/settings/personal-access-tokens</a> with access to only <b>' + esc(REPO.split('/')[1]) + '</b> and these permissions: <b>Actions: Read and write</b>, <b>Contents: Read</b>. The key is kept in this browser only.</p>' +
+      '<p>Searching and publishing happen on GitHub, so this page needs a key for the repository. Create a fine-grained token at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">github.com/settings/personal-access-tokens</a> with access to only <b>' + esc(REPO.split('/')[1]) + '</b> and these permissions: <b>Actions: Read and write</b>, <b>Contents: Read and write</b>. The key is kept in this browser only.</p>' +
       '<div class="scan-row"><input class="search" id="tok" type="password" placeholder="github_pat_…" aria-label="GitHub access key" autocomplete="off">' +
       '<button type="button" class="btn" data-act="savetok">Save</button><button type="button" class="btn" data-act="cleartok">Remove</button></div>' +
     '</details></section>';
@@ -236,8 +229,9 @@ function scanHtml() {
 function renderNote() {
   var fresh = DATA !== LIVE && !sameEdition(DATA, LIVE);
   $('note').innerHTML = isEditor
-    ? '<p class="editor-note"><b>Editor view.</b> Tick the stories to publish, press <b>Download data.json</b>, then upload that file to your GitHub repository. This page cannot change the live site by itself. <a href="./">View the live site</a>' +
-      (fresh ? '<br><b>Showing new search results for ' + esc(DATA.edition.label) + '.</b> The live site still shows ' + esc(LIVE.edition.label) + ' until you upload the new data.json.' : '') + '</p>'
+    ? '<p class="editor-note"><b>Editor view.</b> Tick the stories to publish. Every change is published automatically a few seconds later, and the live link shows it within about a minute. <a href="./">View the live site</a>' +
+      (getToken() ? '' : '<br><b>Add your GitHub access key below to publish.</b> Without it, changes stay on this page only.') +
+      (fresh ? '<br><b>Showing new search results for ' + esc(DATA.edition.label) + '.</b> The live site still shows ' + esc(LIVE.edition.label) + ' and switches to these results when you tick your first story.' : '') + '</p>'
     : '';
   document.body.classList.toggle('editor', isEditor);
 }
@@ -339,28 +333,99 @@ function renderFoot() {
 function renderBar() {
   var w = $('barwrap');
   if (!isEditor) { w.innerHTML = ''; return; }
-  var dirty = !sameSet(draft, published);
   w.innerHTML =
     '<div class="bar" role="region" aria-label="Editor actions"><div class="bar-in">' +
-    '<div class="bar-info"><b>' + draft.size + '</b> selected' + (!sameEdition(DATA, LIVE) ? ' \u00b7 new search, not on the live site yet' : dirty ? ' \u00b7 differs from the live site' : ' \u00b7 matches the live site') +
-    '<span class="bar-status" id="status" aria-live="polite">' + esc(statusText) + '</span></div>' +
+    '<div class="bar-info"><b>' + draft.size + '</b> selected' +
+    '<span class="bar-status' + (saveState === 'error' ? ' err' : '') + '" id="status" aria-live="polite">' + esc(saveMsg) + '</span></div>' +
     '<div class="bar-actions">' +
-    '<button type="button" class="btn" data-act="reset"' + (dirty ? '' : ' disabled') + '>Reset</button>' +
+    (saveState === 'error' && getToken() ? '<button type="button" class="btn primary" data-act="retry">Try again</button>' : '') +
     '<button type="button" class="btn" data-act="clear"' + (draft.size ? '' : ' disabled') + '>Clear</button>' +
     '<button type="button" class="btn" data-act="copy"' + (draft.size ? '' : ' disabled') + '>Copy</button>' +
-    '<button type="button" class="btn primary" data-act="download"' + (dirty ? '' : ' disabled') + '>Download data.json</button>' +
     '</div></div></div>';
 }
 
 function renderAll() { renderNote(); renderHead(); renderControls(); renderList(); renderFoot(); renderBar(); }
 
+// Short-lived messages (like "Copied") that give way to the publish status.
 function setStatus(t) {
-  statusText = t;
   var el = $('status');
   if (el) el.textContent = t;
   clearTimeout(statusTimer);
-  if (t) statusTimer = setTimeout(function () { statusText = ''; var e2 = $('status'); if (e2) e2.textContent = ''; }, 6000);
+  statusTimer = setTimeout(function () { var e2 = $('status'); if (e2) e2.textContent = saveMsg; }, 4000);
 }
+
+function setSave(state, msg) {
+  saveState = state; saveMsg = msg;
+  clearTimeout(statusTimer);
+  renderBar();
+}
+
+/* ---------- publishing ---------- */
+
+function b64(str) {
+  var bytes = new TextEncoder().encode(str), bin = '';
+  for (var i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+
+function scheduleSave() {
+  clearTimeout(saveTimer); saveTimer = null;
+  if (!getToken()) { setSave('error', 'Not published: add your GitHub access key in the New search box.'); return; }
+  setSave('pending', 'Publishing in a moment\u2026');
+  saveTimer = setTimeout(publish, SAVE_DELAY);
+}
+
+function putData(next, tries) {
+  return gh('/contents/data.json?ref=main')
+    .then(function (r) {
+      if (r.status === 401) throw new Error('GitHub rejected the key. Check that it was pasted fully and hasn\u2019t expired.');
+      if (!r.ok) throw new Error('Couldn\u2019t read data.json from GitHub (' + r.status + ').');
+      return r.json();
+    })
+    .then(function (cur) {
+      return gh('/contents/data.json', { method: 'PUT', body: {
+        message: 'Update selection: ' + plural(next.selected.length, 'story', 'stories') + ' for ' + next.edition.label,
+        content: b64(JSON.stringify(next, null, 1) + '\n'),
+        sha: cur.sha,
+        branch: 'main'
+      } });
+    })
+    .then(function (r) {
+      if (r.ok) return;
+      // Someone else (or the search job) committed in between: fetch the new sha and retry.
+      if ((r.status === 409 || r.status === 422) && tries < 2) return putData(next, tries + 1);
+      if (r.status === 403 || r.status === 404) throw new Error('This key can\u2019t change files in ' + REPO + '. Give it Contents: Read and write.');
+      throw new Error('GitHub answered ' + r.status + '.');
+    });
+}
+
+function publish() {
+  clearTimeout(saveTimer); saveTimer = null;
+  if (saving) return; // the running save reschedules itself if more ticks came in
+  saving = true;
+  var base = DATA, picked = new Set(draft);
+  var next = JSON.parse(JSON.stringify(base));
+  next.selected = Array.from(picked);
+  next.curatedAt = new Date().toISOString();
+  setSave('saving', 'Publishing\u2026');
+  putData(next, 0)
+    .then(function () {
+      LIVE = next;
+      if (DATA === base) { DATA = next; published = picked; }
+      setSave('saved', 'Published. The live link shows it within about a minute.');
+      renderNote(); renderHead();
+    }, function (e) {
+      setSave('error', 'Not published: ' + (e.message || 'something went wrong.'));
+    })
+    .then(function () {
+      saving = false;
+      if (saveState === 'saved' && !sameSet(draft, published)) scheduleSave();
+    });
+}
+
+window.addEventListener('beforeunload', function (e) {
+  if (isEditor && (saveTimer || saving)) { e.preventDefault(); e.returnValue = ''; }
+});
 
 /* ---------- actions ---------- */
 
@@ -386,19 +451,6 @@ function copySelected() {
   if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
 }
 
-function downloadData() {
-  var next = JSON.parse(JSON.stringify(DATA));
-  next.selected = Array.from(draft);
-  next.curatedAt = new Date().toISOString();
-  var blob = new Blob([JSON.stringify(next, null, 1) + '\n'], { type: 'application/json' });
-  var url = URL.createObjectURL(blob);
-  var a = document.createElement('a');
-  a.href = url; a.download = 'data.json';
-  document.body.appendChild(a); a.click(); document.body.removeChild(a);
-  setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
-  setStatus('Downloaded data.json. Upload it to your GitHub repository to publish.');
-}
-
 function onClick(e) {
   var t = e.target.closest('[data-country],[data-cat],[data-toggle],[data-more],[data-act],[data-reset]');
   if (!t) return;
@@ -408,10 +460,9 @@ function onClick(e) {
   if (t.hasAttribute('data-more')) { expanded[t.getAttribute('data-more')] = true; renderList(); return; }
   if (t.hasAttribute('data-reset')) { f = { country: 'all', cat: 'all', q: '', only: false }; $('q').value = ''; renderControls(); renderList(); return; }
   var act = t.getAttribute('data-act');
-  if (act === 'clear') { draft = new Set(); saveDraft(); renderHead(); renderControls(); renderList(); renderBar(); }
-  if (act === 'reset') { draft = new Set(DATA.selected); saveDraft(); renderHead(); renderControls(); renderList(); renderBar(); }
+  if (act === 'clear') { draft = new Set(); renderHead(); renderControls(); renderList(); scheduleSave(); }
+  if (act === 'retry') publish();
   if (act === 'copy') copySelected();
-  if (act === 'download') downloadData();
   if (act === 'search') runSearch();
   if (act === 'savetok') {
     var v = $('tok').value.trim();
@@ -419,11 +470,14 @@ function onClick(e) {
     setToken(v); $('tok').value = ''; $('stoken').open = false;
     $('stoksum').textContent = 'GitHub access key · saved';
     scanStatus('Key saved in this browser.');
+    renderNote();
+    if (!sameSet(draft, published)) scheduleSave(); else if (saveState === 'error') setSave('', '');
   }
   if (act === 'cleartok') {
     setToken(''); $('tok').value = '';
     $('stoksum').textContent = 'GitHub access key · not set';
     scanStatus('Key removed from this browser.');
+    renderNote();
   }
 }
 
@@ -501,7 +555,7 @@ function runSearch() {
     .then(function () { scanStatus('Search finished. Loading results…'); return readCandidatesApi(); })
     .then(function (c) {
       load(c);
-      scanStatus(c.stories.length ? 'Found ' + plural(c.stories.length, 'story', 'stories') + '. Tick the ones to publish, then download data.json.' : 'The search found no stories for these dates.');
+      scanStatus(c.stories.length ? 'Found ' + plural(c.stories.length, 'story', 'stories') + '. Tick the ones to publish.' : 'The search found no stories for these dates.');
     })
     .catch(function (e) { scanStatus(e.message || 'Something went wrong. Try again.'); })
     .then(function () { setScanBusy(false); });
@@ -512,9 +566,9 @@ function onChange(e) {
   if (t.hasAttribute && t.hasAttribute('data-pick')) {
     var id = t.getAttribute('data-pick');
     if (t.checked) draft.add(id); else draft.delete(id);
-    saveDraft(); renderHead();
+    renderHead();
     if (f.only) renderControls();
-    renderList(); renderBar();
+    renderList(); scheduleSave();
     return;
   }
   if (t.id === 'only') { f.only = t.checked; renderControls(); renderList(); }
@@ -531,12 +585,10 @@ function newer(cand, live) {
 }
 
 function load(data) {
+  if (saveTimer) publish(); // send pending ticks for the old list before switching
   DATA = data;
-  ids = {};
-  DATA.stories.forEach(function (s) { ids[s.id] = true; });
-  DKEY = 'gmb:draft:' + (DATA.edition.generatedAt || DATA.edition.date);
   published = new Set(sameEdition(DATA, LIVE) ? LIVE.selected : []);
-  draft = loadDraft();
+  draft = new Set(published);
   f = { country: 'all', cat: 'all', q: '', only: false };
   collapsed = {}; expanded = {};
   $('q').value = '';
