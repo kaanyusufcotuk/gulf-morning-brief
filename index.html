@@ -126,6 +126,10 @@ var CAT = {
 };
 var CAT_ORDER = Object.keys(CAT);
 var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+var MONTHS_FULL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// Country order and flags for the daily brief message.
+var BRIEF_ORDER = ['sa', 'ae', 'qa', 'om', 'kw', 'bh', 'iq'];
+var FLAG = { sa: '🇸🇦', ae: '🇦🇪', qa: '🇶🇦', om: '🇴🇲', kw: '🇰🇼', bh: '🇧🇭', iq: '🇮🇶' };
 var FIRST_OPEN = 5;
 var REPO = (function () {
   var m = /^([a-z0-9-]+)\.github\.io$/i.exec(location.hostname), seg = location.pathname.split('/')[1];
@@ -355,6 +359,7 @@ function renderBar() {
     (saveState === 'error' && getToken() ? '<button type="button" class="btn primary" data-act="retry">Try again</button>' : '') +
     '<button type="button" class="btn" data-act="clear"' + (draft.size ? '' : ' disabled') + '>Clear</button>' +
     '<button type="button" class="btn" data-act="copy"' + (draft.size ? '' : ' disabled') + '>Copy</button>' +
+    '<button type="button" class="btn primary" data-act="brief"' + (draft.size ? '' : ' disabled') + '>Copy brief</button>' +
     '</div></div></div>';
 }
 
@@ -471,6 +476,36 @@ function copySelected() {
   if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
 }
 
+// "07-08 October", "30 September-01 October", or "11 October" for a one-day window.
+function briefDates(start, end) {
+  function part(iso) { var p = iso.split('-'); return { d: p[2], m: MONTHS_FULL[+p[1] - 1] }; }
+  var b = part(end);
+  if (!start || start === end) return b.d + ' ' + b.m;
+  var a = part(start);
+  return a.m === b.m ? a.d + '-' + b.d + ' ' + b.m : a.d + ' ' + a.m + '-' + b.d + ' ' + b.m;
+}
+
+function briefText() {
+  var lines = [
+    'Hello everyone 👋', '',
+    'Here is your daily brief for ' + briefDates(DATA.edition.start, DATA.edition.date) +
+      ', covering the agenda over the past 24 hours across the six GCC markets and Iraq'
+  ];
+  BRIEF_ORDER.forEach(function (id) {
+    var c = DATA.countries.filter(function (x) { return x.id === id; })[0];
+    var list = sorted(DATA.stories.filter(function (s) { return s.c === id && draft.has(s.id); }));
+    if (!c || !list.length) return;
+    lines.push('', FLAG[id] + ' ' + c.short + ':');
+    list.forEach(function (s) { lines.push('📌 ' + s.t + ' ' + (s.iu || s.u)); });
+  });
+  return lines.join('\n');
+}
+
+function copyBrief() {
+  var missing = draft.size - withInflow();
+  copyText(briefText(), 'Brief copied.' + (missing ? ' ' + plural(missing, 'story uses its', 'stories use their') + ' original link (no inflow.bio link yet).' : ''));
+}
+
 function onClick(e) {
   var t = e.target.closest('[data-country],[data-cat],[data-toggle],[data-more],[data-act],[data-reset],[data-copyurl]');
   if (!t) return;
@@ -488,6 +523,7 @@ function onClick(e) {
   if (act === 'clear') { draft = new Set(); renderHead(); renderControls(); renderList(); scheduleSave(); }
   if (act === 'retry') publish();
   if (act === 'copy') copySelected();
+  if (act === 'brief') copyBrief();
   if (act === 'search') runSearch();
   if (act === 'savetok') {
     var v = $('tok').value.trim();

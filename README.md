@@ -40,6 +40,10 @@ Yeni aramanın sonuçlarında ilk haberi işaretlediğin anda canlı site o tari
 
 Canlı sitede o haber inflow.bio linkiyle açılır. Kutu boş kalırsa orijinal link kullanılır. inflow.bio'nun açık bir API'si olmadığı için bu adım elle yapılıyor.
 
+## Günlük mesaj
+
+Alttaki çubuktaki **Copy brief** düğmesi, işaretli haberlerden paylaşılmaya hazır mesajı panoya kopyalar: selamlama, tarih aralığı ("10-11 October"), sonra bayraklı ülke başlıkları altında `📌 başlık link` satırları. Ülke sırası: Suudi Arabistan, BAE, Katar, Umman, Kuveyt, Bahreyn, Irak; haberi seçilmemiş ülke atlanır. Her haberde inflow.bio linki varsa o, yoksa orijinal link kullanılır; kopyalarken kaç haberin inflow.bio linki eksik olduğu gösterilir.
+
 ## Notlar
 
 - Siteyi yalnızca depoya yazma izni olan bir anahtarla değiştirmek mümkün. `edit.html` adresini bilen biri anahtar olmadan bir şey yayınlayamaz.
