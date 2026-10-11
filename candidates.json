@@ -5,9 +5,9 @@
   "label": "October 10–11, 2026",
   "titleDate": "October 11, 2026",
   "windowLabel": "2-day window",
-  "scanned": "02:35 Istanbul",
-  "updated": "11 Oct 2026, 02:35 Istanbul",
-  "generatedAt": "2026-10-10T23:35:44.000Z"
+  "scanned": "03:02 Istanbul",
+  "updated": "11 Oct 2026, 03:02 Istanbul",
+  "generatedAt": "2026-10-11T00:02:12.000Z"
  },
  "countries": [
   {
@@ -56,13 +56,23 @@
  "stories": [
   {
    "c": "sa",
-   "t": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
-   "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTHppNFllbVBxRmdxSUhRdWhDeGNyTkNEMnpYY1hxU2RSb2JRd3J2Q0poWk1xWlZ0M2xkdzhqNkFxa2tSMk9CTzFMTXk3OVNzVHphb0NBUGhhZXdTbloyQ3lacGdwbE5ZU0lxdDFmYXZ1RXg0WGxOVkltNVpLdmRNOFVoSF9sd2NBZ29odHdaRnY?oc=5",
-   "s": "NPR",
+   "t": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
+   "s": "The New York Times",
    "d": "2026-10-11",
    "k": "emergency",
    "id": "sa-1",
    "n": 0
+  },
+  {
+   "c": "sa",
+   "t": "Trump weighs joining the fight against Houthis after Saudi capital's airport is struck again",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbjZlanhMZVhZZlZOVWNLVl9GZ3dPaG83d3NFcmU3YUJBN1FZVVo4TklHTk05a3BOaDVwZ2g2ZVROOWJxZTBuR2F4ZXA5Z0JFYTFCNTJnbU9JNUduMGRuRmZ1N1JIMEtZSWtOY19KMFNDTnZkaDF0MVNsMHVTTU9aTlJZRDktSldjeWFneC1ES2RkM2x3cmNvYWlR0gGfAUFVX3lxTFBhZ1B1ZzhDTUlQMG1LbjczZ1N4Uzk5MExWRENvZGswYzB1VnZ2cXJkX1U0UWc5SjljaUtHWDdmYzNSaXlUSmtVelA0dy1nOWZBTFB5cE5hc3lhY0tZd25tVElRWU9EbFJmV0VwSUJta0VjdGt5QTlXd2pUeDFCdk1wVGN4a1p1cVpFdWExNmhNRVc0cDl6d3RJUzhqTkdJbw?oc=5",
+   "s": "ABC News - Breaking News, Latest News and Videos",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-2",
+   "n": 1
   },
   {
    "c": "sa",
@@ -71,8 +81,8 @@
    "s": "Reuters",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-2",
-   "n": 1
+   "id": "sa-3",
+   "n": 2
   },
   {
    "c": "sa",
@@ -81,8 +91,8 @@
    "s": "Time Magazine",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-3",
-   "n": 2
+   "id": "sa-4",
+   "n": 3
   },
   {
    "c": "sa",
@@ -91,8 +101,8 @@
    "s": "WSJ",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-4",
-   "n": 3
+   "id": "sa-5",
+   "n": 4
   },
   {
    "c": "sa",
@@ -101,22 +111,12 @@
    "s": "The Washington Post",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-5",
-   "n": 4
-  },
-  {
-   "c": "sa",
-   "t": "Saudi Arabia: 12 killed, hundreds injured in Riyadh strike",
-   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWnJqS1AxU1J5RGRyZUhiUmt1OHNfTWdNVVZVU21EbU9UT1VtLVZ1dXlLazE0UVFjR1NzWFY5b19PY3dlTld3SlQwTUpqSGp2Wi12eWVGMlc3dUhlNzZ2Rmd3RDRBa0NpYVctYVJIZmw0bG5vZjdjeF9vY3pMTjd6M3BwMExUUHFiU1pSbFJuRlJMOW14TlZoeHFCdWNXd9IBngFBVV95cUxNMm1SZUpJTHMxeXV0aExOOGQ0YXpzUk5WLVJFNUxfaHRPM2VqTHFmQnBTZlhXM2tTX0p2Sm9FTmd2UFRCRV95VTQ1TE8xcHlmVFhhUjJiaHFlaW9hVzRVMHU5WWZjcDZPeXF5dDFvNFhLX2xoTHVHQURJeTNiYTFybjdkYjFhbHZTWFczSWRaVnkyWnctVGlUUHNJOHNUZw?oc=5",
-   "s": "DW.com",
-   "d": "2026-10-11",
-   "k": "emergency",
    "id": "sa-6",
    "n": 5
   },
   {
    "c": "sa",
-   "t": "Iran-backed Houthis strike Riyadh airport in Saudi Arabia, as Trump sends warning after attack",
+   "t": "American among 12 dead after Iran-backed Houthis strike Saudi airport",
    "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPalpibTQtRV90NWlPelFiMFY2R0ZKNk11dXhCNVZzVk9aLXhWbXUwN0t5bEtZMnNSRk5OcldHeHNfRlFxVWVDd1lvb0czU2FzNnpNTnB0ZkdaX0EyOG9IVFgxcDNxY1JwSm95UXhaQzhNdEp0dkpxU1Z3WnVQbzhKM2xsNndSS0xtQkFmeDJqYTVaT1lOeC1RNGE0STMxZU1ob1JabDV2M0hLLWpQTWtYSGVkZm9tcnM?oc=5",
    "s": "New York Post",
    "d": "2026-10-11",
@@ -126,9 +126,9 @@
   },
   {
    "c": "sa",
-   "t": "Saudi Arabia: 12 dead, 309 injured in Riyadh airport attack",
-   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWF9weXpZNUpIWFBHWWtfLXhpaWN4NVRQN0E2UmVsYlkyaGZrYzVWSXZITUwwWFJBb1pZcHBHR3ZUTzAxZkVEcFYzblVIRi1QU1FJYVV1dWhJVTltakxqcFFuNVJ2T3JBZkNlTXQxNEgtNDVXcE05ME5HWFRqUHpsdEFETWw2S24wR0haQTZ0Yy1fX0lEcmxnUFBlV0NENllMU0RDRHU1dWF0VUM3VHBzWk1TaW8?oc=5",
-   "s": "Honolulu Star-Advertiser",
+   "t": "Saudi Arabia: 12 killed, hundreds injured in Riyadh strike",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWnJqS1AxU1J5RGRyZUhiUmt1OHNfTWdNVVZVU21EbU9UT1VtLVZ1dXlLazE0UVFjR1NzWFY5b19PY3dlTld3SlQwTUpqSGp2Wi12eWVGMlc3dUhlNzZ2Rmd3RDRBa0NpYVctYVJIZmw0bG5vZjdjeF9vY3pMTjd6M3BwMExUUHFiU1pSbFJuRlJMOW14TlZoeHFCdWNXd9IBngFBVV95cUxNMm1SZUpJTHMxeXV0aExOOGQ0YXpzUk5WLVJFNUxfaHRPM2VqTHFmQnBTZlhXM2tTX0p2Sm9FTmd2UFRCRV95VTQ1TE8xcHlmVFhhUjJiaHFlaW9hVzRVMHU5WWZjcDZPeXF5dDFvNFhLX2xoTHVHQURJeTNiYTFybjdkYjFhbHZTWFczSWRaVnkyWnctVGlUUHNJOHNUZw?oc=5",
+   "s": "DW.com",
    "d": "2026-10-11",
    "k": "emergency",
    "id": "sa-8",
@@ -146,13 +146,23 @@
   },
   {
    "c": "sa",
-   "t": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says",
-   "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcDhwS0NqYWdsNHo5clhFVFRRNEJSUmdBQlZuOTZZdkVHUDdkbEVwTW1iaVJLYmZ5b2FQM2pjekdBX0xYeTRpMFBkUnIzc2tJSlJSR2lHRHB3dWlxcldOdWFERm9vTE1NUk4wdVVBZTREaDZpXzREb0MwUQ?oc=5",
-   "s": "Durham Herald Sun",
+   "t": "Saudi Arabia: 12 dead, 309 injured in Riyadh airport attack",
+   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWF9weXpZNUpIWFBHWWtfLXhpaWN4NVRQN0E2UmVsYlkyaGZrYzVWSXZITUwwWFJBb1pZcHBHR3ZUTzAxZkVEcFYzblVIRi1QU1FJYVV1dWhJVTltakxqcFFuNVJ2T3JBZkNlTXQxNEgtNDVXcE05ME5HWFRqUHpsdEFETWw2S24wR0haQTZ0Yy1fX0lEcmxnUFBlV0NENllMU0RDRHU1dWF0VUM3VHBzWk1TaW8?oc=5",
+   "s": "Honolulu Star-Advertiser",
    "d": "2026-10-11",
    "k": "emergency",
    "id": "sa-10",
    "n": 9
+  },
+  {
+   "c": "sa",
+   "t": "Attack on Saudi airport leaves 12 dead, dozens wounded, sources say",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV3cweFB1YWN4cWlWRXJRUzBlckIyTV9BNUhWQ0loU1FmOXZEM1BYZllqYjk5UGNLWTgzSkFuTjNObHJKTjhWeXJPZWxBWGRWQ3pPREY2RUpxZ3VibVNmNUl3aTNra3hTUXhxVmRNc3pITVdBOWowdFdSX0RPYmRJbGZETUVrZXlsVllNVXdQNmY0ckt4SFBhMVJYV0hpc29UYlJqbE9rek5ZYk0?oc=5",
+   "s": "Al-Monitor",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-11",
+   "n": 10
   },
   {
    "c": "sa",
@@ -161,8 +171,18 @@
    "s": "The Media Line",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "sa-11",
-   "n": 10
+   "id": "sa-12",
+   "n": 11
+  },
+  {
+   "c": "sa",
+   "t": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says",
+   "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcDhwS0NqYWdsNHo5clhFVFRRNEJSUmdBQlZuOTZZdkVHUDdkbEVwTW1iaVJLYmZ5b2FQM2pjekdBX0xYeTRpMFBkUnIzc2tJSlJSR2lHRHB3dWlxcldOdWFERm9vTE1NUk4wdVVBZTREaDZpXzREb0MwUQ?oc=5",
+   "s": "Durham Herald Sun",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-13",
+   "n": 12
   },
   {
    "c": "sa",
@@ -171,8 +191,18 @@
    "s": "Anadolu Ajansı",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "sa-12",
-   "n": 11
+   "id": "sa-14",
+   "n": 13
+  },
+  {
+   "c": "sa",
+   "t": "12 killed, 309 injured in attack on Riyadh airport as Houthis, Saudi Arabia trade strikes",
+   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBbGdEY01ROHFTbVN1a1RYbnpWYl9CcmMxVUl4ek13aGVNNHlPR0RaSmg1S0xOSlpUcGNMZzFhZTRGdWE1Rk1vVTV5U3NkZkRRNGxma05MZXJCeDJGdEFaaWx4TmhybWVyOE80YnU1OXBJWTdxYVN0ZUFrX18wQQ?oc=5",
+   "s": "China Daily",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-15",
+   "n": 14
   },
   {
    "c": "sa",
@@ -181,28 +211,38 @@
    "s": "Middle East Eye",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-13",
-   "n": 12
+   "id": "sa-16",
+   "n": 15
   },
   {
    "c": "sa",
-   "t": "12 killed, 309 injured in attack on Riyadh airport as Houthis, Saudi Arabia trade strikes",
-   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vUzhOdldYTTExVWVLa08yUV9PN0Y4QXotVGpsYWVDY1BVX3FiRnBObXI0dlJEZURUWHllb09WT0t0UDV2a1FQM2hUT3pQWlYtbHBDaGJXcnJIdXlxZUNuclQ5RmlpaWQ0VTJXVUFSWkwtTnBaaVc4SkRncE8?oc=5",
-   "s": "Xinhua",
+   "t": "12 killed and over 300 hurt in latest attack on Riyadh airport, Saudi authorities say | National News | 2news.com",
+   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNLXlfUG1XWnhYVW0tcms2N2FCeXhETFQ4LWNTcE1HUlpSR2xmOW5xSU1DemZkaUlOV3cyUC05cEFtS3RHVkFNOXMxaHZhSkVjbWJ1X3NJVVk1aWhYanV3OERTd2hqcEJ4X3Z0WDZ5cTI3ME5vbm1wTzl5MWZfUDNwcXVRMGxRMkpJRk0xN2hkYmJXOGlDYkNtNnQwX1FZR2Z4RVBsYzJoZjBiSDRRVzNadl9aakpwMGliRmxLUnYyNjV0RW5XbVZWUnViQmJMb01HYk0zTTJpQ0MzaFV3SWIyRFFReEVvdW9wQWNNQV9TMTNqdVhTc1dsUjI4SzM?oc=5",
+   "s": "KTVN",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-14",
-   "n": 13
+   "id": "sa-17",
+   "n": 16
   },
   {
    "c": "sa",
-   "t": "Live - Trump weighs US strikes on Houthis after deadliest attack on Saudi in 11 years",
-   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3dpQlJkSFZUVG9GSmE0OERYLVdfZGdUN25jVzdfV0NDNG5yTGg0ZGs5WmRXb0QxUnJMSGh5Wkx5cU9FWUpvYTIzLUNXZHAxU1VSelFrNG9kQmRYVFE?oc=5",
-   "s": "Iran International",
+   "t": "One American Among Those Killed In Houthi Strike On Saudi Arabia’s Busiest Airport",
+   "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmtsY2Jrbjhlelk3a0RGQVU4UFlwamdOZ0o0ZENkb0I5YzhxMFg0SGxPQXo1RXpLblpSVnNHRmVGTzJiMDVRZTZhY2h2QkVaY0JNVTdidW1lb0NvNlRZZTJEUzZJNDVTVXlFT00tR3pXR0ctcHM1c3JNQUt2LUNBb1MxRk9PRkZrVmVWU01oMmREQQ?oc=5",
+   "s": "Yahoo",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-15",
-   "n": 14
+   "id": "sa-18",
+   "n": 17
+  },
+  {
+   "c": "sa",
+   "t": "12 dead, 300+ injured in attack on Saudi airport",
+   "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3dHM1QlJWTlRESEF0WUdLOVhrcWhyVE5UTHV1T3JzWms1SEFDNDdyWjQ2ODQ0YmxOYXBPYko3c3pOcmZEVkJzTk1UMGEyOEFEb2VLMVVvY2FCblB2c3BURWQxNNIBaEFVX3lxTE01dkdkVkxhZk41aWttZUN3dm43cndURnpjRUdRcks2YXR0NTlzZ2h0Y081TVNudW5ZQm8zZWRYREx4YW12c01ENmxXVjdtSU5DUl9nM3JTeURKbnVFSHhmdU8tVzAyTHJK?oc=5",
+   "s": "LiveNOW from FOX",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-19",
+   "n": 18
   },
   {
    "c": "sa",
@@ -211,8 +251,18 @@
    "s": "الحرة",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-16",
-   "n": 15
+   "id": "sa-20",
+   "n": 19
+  },
+  {
+   "c": "sa",
+   "t": "Does the Video Show Saudi Airstrikes on Houthi Gatherings?",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMHlaU0w1bDhuRWhxVmZfYm5IS2tMWGZVbzZMMlhHUk1Lc1NaSGFhbVYwNjk3bi1TUWJROXJPaUVsNW84bUlPT3U3bkNlVDU5YklQZ2Z2cmd4Q1FyTjN0WUpTRTVCRjNpZFdqSkczdW12QUJOV29NWXRzaGo3MnJKWDFBV01jTHVCay1nX0hCOVBxa2JCSFBPSHBLRUF6QQ?oc=5",
+   "s": "موقع مسبار",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-21",
+   "n": 20
   },
   {
    "c": "sa",
@@ -221,8 +271,18 @@
    "s": "Middle East Eye",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-17",
-   "n": 16
+   "id": "sa-22",
+   "n": 21
+  },
+  {
+   "c": "sa",
+   "t": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSkt4cnFaT0stX0dhTm50OGlFSnRvTS1mLXlVU0oyTExWX0tBbi00ekJSYkJoVHI4V01KSXZHakVRR3dJVHQ4TUtpaUt0bjVuZnJJWEJwRkFIM1BnRnJNSTc3amlRSTM0MXB4bDBKVVZIdi1lWEFYUWUySVlnZEpXUjN3ajlBM0lUTUExTDcwMk5zY1BKVTdDMlFJRnZSUWM3WjNWOEtaT2VtSlRQSkpOcl9PdzdmUUpRTUlyckZn?oc=5",
+   "s": "WJCT News 89.9",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-23",
+   "n": 22
   },
   {
    "c": "sa",
@@ -231,18 +291,8 @@
    "s": "Middle East Eye",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-18",
-   "n": 17
-  },
-  {
-   "c": "sa",
-   "t": "Attack on Saudi airport leaves 12 dead, dozens wounded, sources say",
-   "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVFQZFNtRzk2akZnUHhSTERGWnVPeGJEdkswUnhJZ3M3M1dsMEFRZzhQMEJlR2I0ZThIVm5hTlYyLUFwZlpvaTRTRWhqaGxzbjdGR1pkYU55NFJfXzVfZ3RUbV9nRWY0T2JDb2FUZk9wdVNudVZVOGtleVdzaHMzNVROZw?oc=5",
-   "s": "Mahoning Matters",
-   "d": "2026-10-11",
-   "k": "emergency",
-   "id": "sa-19",
-   "n": 18
+   "id": "sa-24",
+   "n": 23
   },
   {
    "c": "sa",
@@ -251,8 +301,18 @@
    "s": "CBC",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-20",
-   "n": 19
+   "id": "sa-25",
+   "n": 24
+  },
+  {
+   "c": "sa",
+   "t": "Special Envoy for Yemen on latest attacks against Saudi Arabia: I repeat my call to cease these attacks.",
+   "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HSll6TWpscHVNcFAtU1RZcEo3ZDRrUmdfLV9QNTg5dElLOVFzU2Robl9FNF9LNXNCeEcxRUJwOVFkelB4cVdFYTlrUFZnMDg0WFlnODVVNnYxaWwtaFMxbmFiWjdnQUVaVWdIQ2h3?oc=5",
+   "s": "CGTN",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-26",
+   "n": 25
   },
   {
    "c": "sa",
@@ -261,8 +321,18 @@
    "s": "Sky News",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-21",
-   "n": 20
+   "id": "sa-27",
+   "n": 26
+  },
+  {
+   "c": "sa",
+   "t": "12 killed, over 300 injured in Riyadh airport attack, Saudi authorities say",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTWpZSEJRdlVfTC01X1Vhbm9HcWZhME03WEhiLVdhTE1mZnBTaHlZNkd1YzZGMDE3ZFBrR1I2SWR1SmRBSjVpVXBVaGQyalY3NnBzYjcwd2lJLXROUTdoeEUxc2NXRVk1M2R4NGJDR0pvSHozbGp3M1lfWW0xZTQ5aUNQM3dFdmpUR19STll6dlUzRlIyMlpJbkRJRHZBNk5NM0JRenFmX1hqakd0ejFWcGFFN1lha0ViNklBOGpGREF5djRBOHI3WHJoMlBTRzJH?oc=5",
+   "s": "CP24",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-28",
+   "n": 27
   },
   {
    "c": "sa",
@@ -271,8 +341,8 @@
    "s": "Akron Beacon Journal",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "sa-22",
-   "n": 21
+   "id": "sa-29",
+   "n": 28
   },
   {
    "c": "sa",
@@ -281,18 +351,28 @@
    "s": "Al Jazeera",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-23",
-   "n": 22
+   "id": "sa-30",
+   "n": 29
   },
   {
    "c": "sa",
-   "t": "Saudi authorities say attack on Riyadh airport killed 12 people and wounded over 300 more",
-   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOb1dOOGljV3BITHc1aUV0YVlnLVNWLUFybzdJWG9aQ1JYeGpCd0l2TjJZMGxFdkdFMFhVTWw3RURrMEo0X09jZHk3aHZrd0VST0FiN2w0cUNtM1U2dG9LeHBmUDRmS1k0Zk1EMU8xRlEzVS1rSmx0clhTWmttalQwTHktSHVkUXd5Sm9zMWlWeGJwSlFfZkJOdGM3ZDZ0N0xuV3NCNlhNdFFUTDJHSmkwUl85VUFvVlZGSXowSWNMQnl6NHBCV3V2bjJRM2xRVU5ObUs4Y3M3OEF0NEoxS0lkV1FJcDl0SVhnaXYwdXpZM05HTHJaWmdGSGd3V2dTaFRDal9OeDBn?oc=5",
-   "s": "Eagle-Tribune",
+   "t": "12 killed, 309 wounded in missile attack on Riyadh airport",
+   "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiV1hXcEkxbzVqRHBEMUlCdU1icUFpeDZrcVZ3NjAySDRkeGtYSTNaZENzVmlmY0Rnb0U5SElSc3hKbFJuZjZQMHpHNENsYkpaTGYxWGcwSzUyQQ?oc=5",
+   "s": "Israel National News",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-24",
-   "n": 23
+   "id": "sa-31",
+   "n": 30
+  },
+  {
+   "c": "sa",
+   "t": "Trump weighs joining the fight against Houthis after Saudi airport attack kills 12",
+   "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNLXpOdzJVS2sxclJZU2JxdlExSjZmSDcxVEFrcG4tSjE4OG9iSFlWTndyYlpEY3dRX3d5c204VWdndDdIRkx6d01ycjFnT2oxVXdKRGhHQzExS2d4UkxaSzFOOUVOcXROVV9KLUNuRllHME40OF9OS0ctZ21BRWZxUnZnT2NTQ1N0SnpZRkU4cHF5Zk5GaG9YY3JnUEpPdUlWenEtNU1VeWY0MzhmUno0dUZ4YjU3WS1ZMzc3enYzWnFyeU1DUWl4Y2VxcUxudmVBNTZaNmh2b1p4X0l5cjlPTW5CSWw0VWxL?oc=5",
+   "s": "SMH.com.au",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-32",
+   "n": 31
   },
   {
    "c": "sa",
@@ -301,8 +381,18 @@
    "s": "Forza Football",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "sa-25",
-   "n": 24
+   "id": "sa-33",
+   "n": 32
+  },
+  {
+   "c": "sa",
+   "t": "Palestine Condemns Attacks on Saudi Arabia",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQc2pzZkQ3bkdEOWphb1ZUaExfcTFZdnZSYnk2YW9xZVpRVjRUZzE0S21ld2tub2w2bm9kclZPenpRQ181Q3ZJRndKNmJYOGM1LWgzRGhOaFdLLURKdncxMEZRRHZ0LUh5aE5rdENzaDFKS1NtWEhuT3hmcWhNcDVQMnA4ZmlGSDQ?oc=5",
+   "s": "Fana News -",
+   "d": "2026-10-11",
+   "k": "emergency",
+   "id": "sa-34",
+   "n": 33
   },
   {
    "c": "sa",
@@ -311,8 +401,8 @@
    "s": "Fox News",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-26",
-   "n": 25
+   "id": "sa-35",
+   "n": 34
   },
   {
    "c": "sa",
@@ -321,28 +411,18 @@
    "s": "Breakingthenews.net",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-27",
-   "n": 26
-  },
-  {
-   "c": "sa",
-   "t": "Attack on Saudi airport killed 12 and wounded more than 300: authorities",
-   "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13TC1SMlRiNjR0dDhqX0pXcUhzbXhSZGtmSVl5S2Nmb0w0SGwxajh6TnFOaW5HcUZkaVREdU9Wc0l4d0FlSmROTWtJZG43dnc1ejFNQWdTNFg3UEFYY2t5dmV4bmNzWGZ1MC12STVlTm1pcl9x?oc=5",
-   "s": "Global News",
-   "d": "2026-10-11",
-   "k": "emergency",
-   "id": "sa-28",
-   "n": 27
+   "id": "sa-36",
+   "n": 35
   },
   {
    "c": "sa",
    "t": "Saudi Arabia says attack on Riyadh airport killed 12 and wounded more than 300",
-   "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWm9qSTlZVTJtU2lObXB3eU9tdUEweXJ6UlFxeGM2MTgtN3dIVHRiVHhuNnFFcEdETjZCWnZqQkRDUGR5OU9qUEo1aDcxb09JSmdqaFdvMlBVMmEyaU11dW5QajZBcklodkZMNFhPZWpha2dzT1FDU3N6MVF5VGdIWHJPTWE0QWhtQ1R0M1FDNURSYVVSdFdkYndkdFdIOWVZT1RVaUZsYUp1TTdoSWpMX2NxTEMxQWVkcnBVY25OXzR0VmN3VXhLOXNjalc1LThOcjcwZVo0U3dMdjhYZFhqc0xudGY?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWm9qSTlZVTJtU2lObXB3eU9tdUEweXJ6UlFxeGM2MTgtN3dIVHRiVHhuNnFFcEdETjZCWnZqQkRDUGR5OU9qUEo1aDcxb09JSmdqaFdvMlBVMmEyaU11dW5QajZBcklodkZMNFhPZWpha2dzT1FDU3N6MVF5VGdIWHJPTWE0QWhtQ1R0M1FDNURSYVVSdFdkYndkdFdIOWVZT1RVaUZsYUp1TTdoSWpMX2NxTEMxQWVkcnBVY25OXzR0VmN3VXhLOXNjalc1LThOcjcwZVo0U3dMdjhYZFhqc0xudGbSAeoBQVVfeXFMTW9qMzhRMGl2SlAwZzFHd2VTcEg0Z2ZQZk9iLUNtb00yOFJzcGd4OEk4b2s5dTlSM0JfcExjcTZ6OUY4bEJFQ1dDcmVkSG5kYW1WSDcxZUJaMHIwOW5xdTE2LTZIWGlHUzZaMnhFWENIRWctWlNrVDBkTjdsSm56NTQtb2dybE1BVEROb1RFUVItbF9XYU1vajBzM0wtM0tVdzREX2FYaHdCTVlwLXZIUzlQWDU3Z1dKSjJNR0g4ZjhxWnhBYWdYcWgyMFFzMGpNd1J2OU1LQVRrQURMUngyNjlua1FFUGhKZkxn?oc=5",
    "s": "The Times of India",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-29",
-   "n": 28
+   "id": "sa-37",
+   "n": 36
   },
   {
    "c": "sa",
@@ -351,8 +431,8 @@
    "s": "Fana News -",
    "d": "2026-10-11",
    "k": "emergency",
-   "id": "sa-30",
-   "n": 29
+   "id": "sa-38",
+   "n": 37
   },
   {
    "c": "sa",
@@ -361,94 +441,14 @@
    "s": "Forza Football",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "sa-31",
-   "n": 30
+   "id": "sa-39",
+   "n": 38
   },
   {
    "c": "sa",
    "t": "Trump weighs whether US should join Saudi Arabia's fight against Iran-backed Houthi rebels in Yemen",
    "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY200OGlGbnZMOXpxUkQ0VTlqV3ZRQV9tSl9KQVl5a1RQZVJSTm00aGpUcnd0SVZnR3cyNzNmV2MtWERCZkJqSTI5WTNBTGZzTEVqNEkyS1dLUWhoTy1yY3VUQTRjdnlQZGxRS2htQU03bFVnR1d1Ri1jbVo5MTJKN3U0VGk1T3o3TlRZOHpNWWlXcGM?oc=5",
    "s": "Fortune",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-32",
-   "n": 31
-  },
-  {
-   "c": "sa",
-   "t": "At Least 12 Killed and 300 Injured in Houthi Attack on Saudi Airport",
-   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
-   "s": "The New York Times",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-33",
-   "n": 32
-  },
-  {
-   "c": "sa",
-   "t": "Security Alert: U.S. Mission Saudi Arabia – October 10, 2026",
-   "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX2ItZExEanhaSFZDOVotZWRlbnVnanBuNnVuRXkwQXBEWm5rdG41WFo4dXFRT090UlhvUzZuRFRmTEhsZXdMUEdzQjNyQ3RYNFFaX0MyNkJNbGZTMXhiOHJIZWF2Tm1sRTdTaXFPZDNodGR0Q3BrR3E1aUtUaV9DTVlvZXlyNm9k?oc=5",
-   "s": "U.S. Embassy & Consulates in Saudi Arabia (.gov)",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "sa-34",
-   "n": 33
-  },
-  {
-   "c": "sa",
-   "t": "Damage seen inside Saudi airport after third attack this week",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHIzb0dsa0ZqLVlEek5IWTd3cXRhd0VKakx6MDdrQ0VzeC1UX245LWpXQktYX0dVampRaWJEVG1SeVRUMmpKV3cyZk5oTEJQWUtkT01WTFM4RVU4ZElxSGh4eF9nRV9Cb3pRNm1RZGh1WFZ6cnFvaU1UZG5SOUlGQ2RlRjNiT3lUeE9zQ2llQ0tPWEFkRWhmVGdYNzBBbVNjRWNNeDVscEg3Sk42WURzczVSd9IBuAFBVV95cUxPM0xLVWpZVlZxaUxUNTl4cnlLeG95QUF5c2pQNjlkNk1FRkZKQlBWNFc5Zk1SZUVIQ3ZOQndabkZEYURreGIzTzdrc05lN0UtRnN3ejVQTVdKVVhZTUtfLWd5MFFxbVR4eFBnQlRLbktnU2RlWm9HbWtoMk9JSkwzc1pSUFJEcmh3SHFBYVY5aWpwa2FwWTBsU1VBNUlHV3Q4cU1vVmQxWkVDUTlLaEQ4eERRdDZOTEIz?oc=5",
-   "s": "Al Jazeera",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-35",
-   "n": 34
-  },
-  {
-   "c": "sa",
-   "t": "Saudi officials: Several people wounded in Riyadh airport attack",
-   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYlJvUEZseU5jS2dESnd3b0JPQ3pLUlFMZDZ0YWtGd2NCSTE5elh3dE4zY2NJdFJjZGhnSzlmd0tvVDZEU3FOcVBacnQtYlg1SG1FU1ZJOHZ3dTNWMU5obTk3aFIzMWVpTWFuVkcyM3lKZzhFQ0RHemw3c2FmYW5IZ3kzRGdsY1BoRUNheGs0OFJ6d2M?oc=5",
-   "s": "CNN",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-36",
-   "n": 35
-  },
-  {
-   "c": "sa",
-   "t": "Several injured after attack on Saudi Arabia's Riyadh airport",
-   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeElJZDg5bURmOFpwUFF2VFdXLWtJYWxvblRFaFNlQ2NsbXFmRFk3UFdleE11N0s3dmNIUmxiUS0tRlJ3VUhCbEhmanZiUm1kdS1yM3dOSGdLajk5OWthZ0NTM3lvUjN2d21PSTBtWXhmcTRGU1B2QnZqYUIzU0ZNMzRRcW1GV1lpU2txRld1bHVBZGpHLUJVcFdlVFZQaVRqNl9DWU1VNU1IRV9WMnpfdW1oc2R1UjQwX05BS1lHQ3JoQdIBwgFBVV95cUxPeWxlX1RzSUNqUnBFYnhhNHkxOUxnUVBGVllZdTJUak1LZVBHYUlHcGFtYjIzWG5kZm1nVk9vNXJ6bE5oRTJ5bV81dHNlbm1za082WDZfeVRBZkVqbGsxa19hNzVfVW1TaW1Wc29xRTg2YVQteW1LcGNBU2hiN3pBWnE4ODVveENYWkQ5elpQeDhwQUNXdkdVaEdtVUpQTHo0ZGZHT0RIY01tWThjT0pRQllGcXhYSDZfSkZwTDRqdzdoUQ?oc=5",
-   "s": "DW.com",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-37",
-   "n": 36
-  },
-  {
-   "c": "sa",
-   "t": "Attack on airport in Saudi capital, Riyadh, leaves several injured",
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGcxd2Q2QXhUSGFCZ3NmdUotNFR2bkxvZ0t5dUN3ZGFoWnEyeVVMaXU3YmxST3daXzhOeVpCcDRIbXJhYlJ2MUdsOEhNYVcwcThEZlQyZUFGQWFpeklPYlY2T0FZb3hQY0liUkRfZ3hpT3pOUTRkb2hhSUhkdmJSTmtrSURzZEhMdllIa1pqNm9mUDhCT3hnM1k5cDQ4bjh0OVBaNk9YMHpJd9IBrwFBVV95cUxOeEY5RWlrVmxYUFllYXkyMk5QeUZQZGZ6OGNGZ2dvVlo5cXB3STlBbnMxWmFpQUJYQ200VFZoaVdmM0lTRFpKTWRWMXRQUDhuc1lSdjduZHhSSXRLQjZNalhjNXdiYjhwd2xhbzlqbUF3RnN4bmV2U1hFdHJKYTZlWkllancybkk4Y0Rkc2tSZ0dPZlFiZzAyT0EzX29wMEJ0WnRGR3JUdU80aWU2TU00?oc=5",
-   "s": "Al Jazeera",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-38",
-   "n": 37
-  },
-  {
-   "c": "sa",
-   "t": "Houthis Escalate Attacks on Saudi Airports, Killing 3 and Wounding Dozens",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVm9rT29ja1RzMzBhZEduc1JaOGp0akp2ckdobURFM1U3T1FqeU9XNU14MVZuNDV3Q3JPcTdzUEFaUFJoXzJWQ1JKZFNaVmE3X1JxeVNVN1ZVRHVUZjV4blpoVDIxNFdEOUUwRzVjLU5wamFUbDZ5ek9jb2hlOUNzeHpHMGlTeWs4ZkkzWkFMWm00N0VoOE1VMFltOGlqQXF0a21jRWpxVFdRX1VaRWhwUVY4LTZtY1Q3ZmdF?oc=5",
-   "s": "WSJ",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "sa-39",
-   "n": 38
-  },
-  {
-   "c": "sa",
-   "t": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack",
-   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3lBZTEwaWVLUXNScDVCZjV1eDRkb3RoWnM2M0ZkOE9DM0ZVMDNPaXA1ZDJXQ0xYZ2JqZm85dm9HbHBOSXNaQmVzUWJQN0xnMXpNR2dENDFoMXItWEQxYlB2WmZGUVVxYU1RX0E0RHNKSWd0RDNkbmk1Ty1MZnlJZFUxR3pjanFwSWZzS3hiZlktMEtTM2psOS12Y2xaMlk1MEc1Nm81NU50WjFKN0ZkY082T0pFVGU3dmd6T3JIckNPcFR0VlM0?oc=5",
-   "s": "Reuters",
    "d": "2026-10-10",
    "k": "emergency",
    "id": "sa-40",
@@ -486,8 +486,8 @@
   },
   {
    "c": "ae",
-   "t": "Augsburg score fastest Bundesliga goal, Bayern snatch comeback draw",
-   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM0lJY09ZSVVyN1htNjZQZWhEc2ltWDB2NmJnYnUyUEdYNG51cG9ybHBzS0ROVmhxUENKcTVyX1lET1BQOFJ3d3E5TC0tUks3YUJxdl9haHcxSGNMdEhVZDJyZmo0ZHEwVHpOSGhOSWZ5czFZdEhTTU14ZWdxYWk5NHlYeVRVOGJlYWVWbTU3eXRJYzNyZ2tWbXA0N3ZFVDB4UGJHbkJGc21JeThmTlVrUjJ3?oc=5",
+   "t": "9 dead in Pennsylvania mass shooting",
+   "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1VtRlpyMU0ya1dOeWpWU0VkSHVuUGdHeVBaTGFKSHIyaXBRZnY4OXFYZC1TaUJScFRMNlR3MVNHSGNWajVhNVQ3MnFlRGM1WE4xSGV0WE5GYXZVM29iOUVPc2ZpWG9RMkpRNGdnMTRMZGoyTDdrUmFNaDM1ekpPV2N6TmF6d2FMOUNyNjVn?oc=5",
    "s": "Dubai Eye 103.8",
    "d": "2026-10-11",
    "k": "politics",
@@ -496,8 +496,8 @@
   },
   {
    "c": "ae",
-   "t": "Etihad Airways extends Abu Dhabi-Riyadh flight cancellations",
-   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU2tubThUd0xHRlc3d1JIZGg1RE56QVF4Njg1WUxXMjR4UlR5N2pEczZvZWprOTNYanplY21rOE1GWWk0X0NrWXVLeE44UEVCVWY1TzRLSWVLdVlUcVZ1X3hlSnZtdGthU2pfbnBsRWlLWVJzZU5kTEhQcUxEWmg3NENJTkxqSmJ4a3E0Y2lIM0wwWGRXcHNUMURYSkpSbU14VjlF?oc=5",
+   "t": "Augsburg score fastest Bundesliga goal, Bayern snatch comeback draw",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM0lJY09ZSVVyN1htNjZQZWhEc2ltWDB2NmJnYnUyUEdYNG51cG9ybHBzS0ROVmhxUENKcTVyX1lET1BQOFJ3d3E5TC0tUks3YUJxdl9haHcxSGNMdEhVZDJyZmo0ZHEwVHpOSGhOSWZ5czFZdEhTTU14ZWdxYWk5NHlYeVRVOGJlYWVWbTU3eXRJYzNyZ2tWbXA0N3ZFVDB4UGJHbkJGc21JeThmTlVrUjJ3?oc=5",
    "s": "Dubai Eye 103.8",
    "d": "2026-10-11",
    "k": "politics",
@@ -506,13 +506,23 @@
   },
   {
    "c": "ae",
+   "t": "Etihad Airways extends Abu Dhabi-Riyadh flight cancellations",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU2tubThUd0xHRlc3d1JIZGg1RE56QVF4Njg1WUxXMjR4UlR5N2pEczZvZWprOTNYanplY21rOE1GWWk0X0NrWXVLeE44UEVCVWY1TzRLSWVLdVlUcVZ1X3hlSnZtdGthU2pfbnBsRWlLWVJzZU5kTEhQcUxEWmg3NENJTkxqSmJ4a3E0Y2lIM0wwWGRXcHNUMURYSkpSbU14VjlF?oc=5",
+   "s": "Dubai Eye 103.8",
+   "d": "2026-10-11",
+   "k": "politics",
+   "id": "ae-6",
+   "n": 5
+  },
+  {
+   "c": "ae",
    "t": "UAE: Omani flydubai pilot targeted Ben-Gurion Airport in suicide attack attempt",
    "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVV8xX0d2N3ZhLURRS3A4ZDU1eWF5bERXaEs2cjdIOXNmQUlramdXcmNUbDJmNUlvX2NUalFCZ1ZoeVgxMXRRUUZ3VWVVWC1tRmpZUlpEMGljZWY4?oc=5",
    "s": "The Jerusalem Post",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "ae-6",
-   "n": 5
+   "id": "ae-7",
+   "n": 6
   },
   {
    "c": "ae",
@@ -521,8 +531,8 @@
    "s": "DW.com",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "ae-7",
-   "n": 6
+   "id": "ae-8",
+   "n": 7
   },
   {
    "c": "ae",
@@ -531,38 +541,8 @@
    "s": "Arab News",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-8",
-   "n": 7
-  },
-  {
-   "c": "ae",
-   "t": "UAE Rescues 22 Crew Members After Oil Tanker Catches Fire In Gulf",
-   "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRUU2MHZTdlNMRlg3SnFzWjdzMENveUdHRXMxTU9mSW5DbEtIeEVMcGNiYS1wbGgxNW1halR5R2F0bmhjV0tqMHNyMEk3YkVadFNTOVlqUERRX3JkVTE0S1B0U2xZMnRHbWNXODdkdVZXWmxxVEtYRURPaG8yS3Rtd2pyQ0xCTlV6ZU8yb04yWHM?oc=5",
-   "s": "gCaptain",
-   "d": "2026-10-10",
-   "k": "economy",
    "id": "ae-9",
    "n": 8
-  },
-  {
-   "c": "ae",
-   "t": "Ships near UAE coast told to leave anchorages in radio broadcast: UK maritime agency",
-   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRXIyTWtBYWxZOUp4VmtwT3VudTUxNFVKOW5uaG50SzhySlJLUmgyNkE1c2Z1cmVDU21WbUIzOXNvS0NUQURzckxLV1N3QjNENDR2X2tkQktLSTR3R3R4M0RjTzlYWC1NYXBrOU1KM0J2S1FWemJjQjN5OUdUTVpETUV1SFN1TmpwVXpvcGtITmpWaVljWU5SVzRUc3IyaFpJZGpkWlpvZHJPY2hpYm96b21zckdEZEh1UHZrUUxCRGZKUDBsMnFz?oc=5",
-   "s": "Anadolu Ajansı",
-   "d": "2026-10-10",
-   "k": "logistics",
-   "id": "ae-10",
-   "n": 9
-  },
-  {
-   "c": "ae",
-   "t": "Flydubai Pilot Planned 9/11-Inspired Suicide Attack on Tel Aviv Airport, UAE Says",
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVjRubXY3STlXOWd2NVFlZkh4a2RmNzRqVGQtdVFpZEhHUmYxTmJzU1d6MmF2bFJqMWFCM3BpUUwzT1FNU0t5MVJkNEliSnoyVFlFUUwzNEIwcFRHRFlmV2h4aUZlTVZNNm9QVmp0YzFWY184S2RZaFgyXzZsUExvOFJqdHdndTUzcDhPbmk5T3M0VDRlejhuaC02SUh6eUxsWFVBWXZOV2l1UQ?oc=5",
-   "s": "Newsweek",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "ae-11",
-   "n": 10
   },
   {
    "c": "ae",
@@ -571,8 +551,38 @@
    "s": "Business Insider Africa",
    "d": "2026-10-10",
    "k": "emergency",
+   "id": "ae-10",
+   "n": 9
+  },
+  {
+   "c": "ae",
+   "t": "UAE Rescues 22 Crew Members After Oil Tanker Catches Fire In Gulf",
+   "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRUU2MHZTdlNMRlg3SnFzWjdzMENveUdHRXMxTU9mSW5DbEtIeEVMcGNiYS1wbGgxNW1halR5R2F0bmhjV0tqMHNyMEk3YkVadFNTOVlqUERRX3JkVTE0S1B0U2xZMnRHbWNXODdkdVZXWmxxVEtYRURPaG8yS3Rtd2pyQ0xCTlV6ZU8yb04yWHM?oc=5",
+   "s": "gCaptain",
+   "d": "2026-10-10",
+   "k": "economy",
+   "id": "ae-11",
+   "n": 10
+  },
+  {
+   "c": "ae",
+   "t": "Flydubai Pilot Planned 9/11-Inspired Suicide Attack on Tel Aviv Airport, UAE Says",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVjRubXY3STlXOWd2NVFlZkh4a2RmNzRqVGQtdVFpZEhHUmYxTmJzU1d6MmF2bFJqMWFCM3BpUUwzT1FNU0t5MVJkNEliSnoyVFlFUUwzNEIwcFRHRFlmV2h4aUZlTVZNNm9QVmp0YzFWY184S2RZaFgyXzZsUExvOFJqdHdndTUzcDhPbmk5T3M0VDRlejhuaC02SUh6eUxsWFVBWXZOV2l1UQ?oc=5",
+   "s": "Newsweek",
+   "d": "2026-10-10",
+   "k": "emergency",
    "id": "ae-12",
    "n": 11
+  },
+  {
+   "c": "ae",
+   "t": "Ships near UAE coast told to leave anchorages in radio broadcast: UK maritime agency",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRXIyTWtBYWxZOUp4VmtwT3VudTUxNFVKOW5uaG50SzhySlJLUmgyNkE1c2Z1cmVDU21WbUIzOXNvS0NUQURzckxLV1N3QjNENDR2X2tkQktLSTR3R3R4M0RjTzlYWC1NYXBrOU1KM0J2S1FWemJjQjN5OUdUTVpETUV1SFN1TmpwVXpvcGtITmpWaVljWU5SVzRUc3IyaFpJZGpkWlpvZHJPY2hpYm96b21zckdEZEh1UHZrUUxCRGZKUDBsMnFz?oc=5",
+   "s": "Anadolu Ajansı",
+   "d": "2026-10-10",
+   "k": "logistics",
+   "id": "ae-13",
+   "n": 12
   },
   {
    "c": "ae",
@@ -581,8 +591,8 @@
    "s": "Condé Nast Traveller Middle East",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-13",
-   "n": 12
+   "id": "ae-14",
+   "n": 13
   },
   {
    "c": "ae",
@@ -591,8 +601,8 @@
    "s": "The Spectator",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-14",
-   "n": 13
+   "id": "ae-15",
+   "n": 14
   },
   {
    "c": "ae",
@@ -601,16 +611,6 @@
    "s": "The National",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "ae-15",
-   "n": 14
-  },
-  {
-   "c": "ae",
-   "t": "FlyDubai co-pilot intended to crash plane into Tel Aviv airport, UAE prosecutor says",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeXdWLVk3aDFsYzFZaThZZmUyTUl1dEhubHV2RU5OcnlqeTU2b1FpNGNmbWp1MHJVMFAxdXI3UUh2cTRaU24tcnZoVHFBN3h6Mll1YnVTMmJZSW9mMWVva09sY0U3YWhieUR2Z053d1dzS2xSaFdUb3RTMzNXMllkMHVNZHRaTF9qX1hPOXotYjdNY2VzUkZfRWVuQXJ3ZENhLWNjb3h6MXlGWERqcXF1NTJJNGtEemRYclhZ0gHDAUFVX3lxTFBqcGJ6QlVzUkNuN3RIbWlDeTJ5UFhFcEZ6bms4dWNnNDEtd3llR3RDUThmN1NPci1UTXExLVhjUzc5dnFzUXhBQUs4TFNyWmFGQ1FuQUZObE1nSk15ZzJIR08tcUZQWnpZUy1oQnpQaXc4NTRZcjN2Sm1ZdHBrMkFJbDBDcGdtWld0OVZNQlZneXE4MXhjS2lzLUo0RkpKN1c2cVB2RDNUOVdLZjExRS04YUhPcjZZMUducTlZbVlxcjlBbw?oc=5",
-   "s": "NBC 4 New York",
-   "d": "2026-10-10",
-   "k": "politics",
    "id": "ae-16",
    "n": 15
   },
@@ -666,23 +666,13 @@
   },
   {
    "c": "ae",
-   "t": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
-   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYVlQY1diZlp6QWVxcmVQMW1yRWhBYTlIR2FzQkcwMGtQdFliZEhPd1NibnczSFdSVjlvQUtjSE04MUlMTXl2enpyWUlLNUJmcUZEZXRLMTA4MlVmZnpRVG55aENuQjRmVHV3NUl2YUhKSUxicFl3RUNYVzlVdjNSQ055ckhaVWJZaHlDLXhITW82Z3ZNOGlWNE1DdlYxZw?oc=5",
-   "s": "The Arab Weekly",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "ae-22",
-   "n": 21
-  },
-  {
-   "c": "ae",
    "t": "Studying and Building a Career in the UAE: What American Students Should Know",
    "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa1d3OExzQlRTUVplQ244d0ZDYXpxaUtEYmdGWHlwWlJ3c3ZkOXFnSFg3NWMzeVI2ZDdjcnNUUzJtc0VGNkNjS3lkTHl1VzR3aU9mdlJJOUVIY0x5TW1Vb2RGTlpaMkhCcU9JUVBjMEdfMHRyTUJtaHcyNW5XdFhBRFJxcGZpdkVSRnNjZWJXOERvSVpwNWJrNnNYeTZJSmJyUW5EOUJSNTY0aXVZSVF2UHBQNnVxNGlnZHJCWlRpQ2JaSFBMdmlhSEItbWxPNHJvUlUxb0xxd3NocldoRGk1R3JHdlpVVUlmVGQwR2k4RkpmX3V4VXpKYXZnTQ?oc=5",
    "s": "San Mateo Daily Journal",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-23",
-   "n": 22
+   "id": "ae-22",
+   "n": 21
   },
   {
    "c": "ae",
@@ -691,28 +681,18 @@
    "s": "Middle East Online",
    "d": "2026-10-10",
    "k": "economy",
+   "id": "ae-23",
+   "n": 22
+  },
+  {
+   "c": "ae",
+   "t": "FlyDubai co-pilot intended to crash plane into Tel Aviv airport, UAE prosecutor says",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanBiekJVc1JDbjd0SG1pQ3kyeVBYRXBGem5rOHVjZzQxLXd5ZUd0Q1E4ZjdTT3ItVE1xMS1YY1M3OXZxc1F4QUFLOExTclphRkNRbkFGTmxNZ0pNeWcySEdPLXFGUFp6WVMtaEJ6UGl3ODU0WXIzdkptWXRwazJBSWwwQ3BnbVpXdDlWTUJWZ3lxODF4Y0tpcy1KNEZKSjdXNnFQdkQzVDlXS2YxMUUtOGFIT3I2WTFHbnE5WW1ZcXI5QW_SAcMBQVVfeXFMUGpwYnpCVXNSQ243dEhtaUN5MnlQWEVwRnpuazh1Y2c0MS13eWVHdENROGY3U09yLVRNcTEtWGNTNzl2cXNReEFBSzhMU3JaYUZDUW5BRk5sTWdKTXlnMkhHTy1xRlBaellTLWhCelBpdzg1NFlyM3ZKbVl0cGsyQUlsMENwZ21aV3Q5Vk1CVmd5cTgxeGNLaXMtSjRGSko3VzZxUHZEM1Q5V0tmMTFFLThhSE9yNlkxR25xOVltWXFyOUFv?oc=5",
+   "s": "NBC 4 New York",
+   "d": "2026-10-10",
+   "k": "politics",
    "id": "ae-24",
    "n": 23
-  },
-  {
-   "c": "ae",
-   "t": "9 dead in Pennsylvania mass shooting",
-   "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1VtRlpyMU0ya1dOeWpWU0VkSHVuUGdHeVBaTGFKSHIyaXBRZnY4OXFYZC1TaUJScFRMNlR3MVNHSGNWajVhNVQ3MnFlRGM1WE4xSGV0WE5GYXZVM29iOUVPc2ZpWG9RMkpRNGdnMTRMZGoyTDdrUmFNaDM1ekpPV2N6TmF6d2FMOUNyNjVn?oc=5",
-   "s": "Dubai Eye 103.8",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "ae-25",
-   "n": 24
-  },
-  {
-   "c": "ae",
-   "t": "‘Cornell 7’ frat bro who said he was ‘sodomized’ trashed US, is son of Dubai-based Islamic studies prof",
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1hEUExONEdxQlBicHhGN25KbGE2eTRwRWc3QWRLbUNTakd3VHN1c3ZhM2NDQlBsd19Yc3NPeXY1bzgyOWEwc2JicXdsNU1YZHlNMmxHQXdUXzNxMklYY0JkcWZwZkVEekduVUFBRHJPRnB6RDk1SmtWZTdRTUNZcllRMFB4UEJ6RmFwZ21CMnMzZl9fQ3d5YVdqSDI3VEJQX1RBT2dMVXFDZVltMXZz?oc=5",
-   "s": "New York Post",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "ae-26",
-   "n": 25
   },
   {
    "c": "ae",
@@ -721,8 +701,8 @@
    "s": "CyclingUpToDate.com",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-27",
-   "n": 26
+   "id": "ae-25",
+   "n": 24
   },
   {
    "c": "ae",
@@ -731,8 +711,8 @@
    "s": "dairynews.today",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-28",
-   "n": 27
+   "id": "ae-26",
+   "n": 25
   },
   {
    "c": "ae",
@@ -741,8 +721,8 @@
    "s": "Morocco World News",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "ae-29",
-   "n": 28
+   "id": "ae-27",
+   "n": 26
   },
   {
    "c": "ae",
@@ -751,8 +731,8 @@
    "s": "Gulf News",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-30",
-   "n": 29
+   "id": "ae-28",
+   "n": 27
   },
   {
    "c": "ae",
@@ -761,8 +741,8 @@
    "s": "CBC",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "ae-31",
-   "n": 30
+   "id": "ae-29",
+   "n": 28
   },
   {
    "c": "ae",
@@ -771,14 +751,34 @@
    "s": "Morocco World News",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "ae-32",
-   "n": 31
+   "id": "ae-30",
+   "n": 29
   },
   {
    "c": "ae",
    "t": "Melbourne Islamic centre in focus over Flydubai pilot’s radicalisation",
    "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcGFiYXFIc2FyWlJXTVFzV1NhbzM4MlZOTGw0Z3c5akFMbE9UV2RHWC1YZGljZm8tWmNWbG5sWlRxQ0h5aURTVnp6TXdSRzYyM3VhbnNGeDBwTG5IYk53bDZDSjU1blpPcFV4LXlGTUtiZDlvZW1qNXVyd244QktVTmFTTjFTWmhZaGluZUhseDV2NVE0dUF5dGdyYmpjWlUybnc?oc=5",
    "s": "AFR",
+   "d": "2026-10-10",
+   "k": "politics",
+   "id": "ae-31",
+   "n": 30
+  },
+  {
+   "c": "ae",
+   "t": "‘Cornell 7’ frat bro who said he was ‘sodomized’ trashed US, is son of Dubai-based Islamic studies prof",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1hEUExONEdxQlBicHhGN25KbGE2eTRwRWc3QWRLbUNTakd3VHN1c3ZhM2NDQlBsd19Yc3NPeXY1bzgyOWEwc2JicXdsNU1YZHlNMmxHQXdUXzNxMklYY0JkcWZwZkVEekduVUFBRHJPRnB6RDk1SmtWZTdRTUNZcllRMFB4UEJ6RmFwZ21CMnMzZl9fQ3d5YVdqSDI3VEJQX1RBT2dMVXFDZVltMXZz?oc=5",
+   "s": "New York Post",
+   "d": "2026-10-10",
+   "k": "politics",
+   "id": "ae-32",
+   "n": 31
+  },
+  {
+   "c": "ae",
+   "t": "India and UAE should move from exchange to deeper co-creation | THE WEEK India - news",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS3RKdl83NEsxcVlfVmtEWnhOWlFVMnJXUTh6WHpiczZnaldDVzZHMmtTLUZ0QzhOZWhJUThjdUlzc3p1UzNSVzhIVUM4V1NjX0k1Q1o1VmVTNDNaWVZaR0NUNVNhZ1hDdER0X2VTcDduME51M252YnZMYldPVHFXOVZyUFdTcHYzUjdkWWphUlN6RUFjZmNLSl9xeGNvZmNqNy1tM01tangydlNMVF9sZEVB?oc=5",
+   "s": "Magzter",
    "d": "2026-10-10",
    "k": "politics",
    "id": "ae-33",
@@ -806,21 +806,21 @@
   },
   {
    "c": "ae",
-   "t": "India and UAE should move from exchange to deeper co-creation | THE WEEK India - news",
-   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS3RKdl83NEsxcVlfVmtEWnhOWlFVMnJXUTh6WHpiczZnaldDVzZHMmtTLUZ0QzhOZWhJUThjdUlzc3p1UzNSVzhIVUM4V1NjX0k1Q1o1VmVTNDNaWVZaR0NUNVNhZ1hDdER0X2VTcDduME51M252YnZMYldPVHFXOVZyUFdTcHYzUjdkWWphUlN6RUFjZmNLSl9xeGNvZmNqNy1tM01tangydlNMVF9sZEVB?oc=5",
-   "s": "Magzter",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "ae-36",
-   "n": 35
-  },
-  {
-   "c": "ae",
    "t": "UK Maritime Agency: Several Vessels off UAE’s Ras Al Khaimah Told to Leave Berths » Iraqi News Agency",
    "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUjNYN0FKV3Q5WVY5N2ZaQ0tHYS10MVlQVG15bmlOQ3RzYW4xT1hkOV9XMnIyYVBlVkQ4Rzk0MXNfY05CNldDS1JHWktrbnBHUzJVRjQwZ3lVOS1Zb0JKOGh6dFlHcHpCbElIMlJOWTEzV3Jfdzk5S1djcWJ3NGV6NGN2Q0FwdGV0aExHMzBUalFIN0tuWWpzN08xNk1BaUtQTDZFVTQ0d05iZ1RsSGtacHphRTlEb0Z2eXNrZ1FDdw?oc=5",
    "s": "وكالة الانباء العراقية (واع)",
    "d": "2026-10-10",
    "k": "logistics",
+   "id": "ae-36",
+   "n": 35
+  },
+  {
+   "c": "ae",
+   "t": "UAE: Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT0lZVWxWak9jdi1td3ZFeko1cXBZNE5Ta3pMSFkwbjhldmE0VzM1RGp5ZHNyRW96emxJb1V4d1Q3YVpRWU9Va0I1c0x4QWQtbXFUMG0tNmhmUUk1SzIzUFBZaDRFNkxYZ09LcVRxWVQ2REhvdG1VdnZwSlhKdkEtRktUNi1SLU5hS2M5cUJ1X2RlTU5abnNPUjgxVjRSbWhfc1E?oc=5",
+   "s": "Middle East Online",
+   "d": "2026-10-10",
+   "k": "emergency",
    "id": "ae-37",
    "n": 36
   },
@@ -846,11 +846,11 @@
   },
   {
    "c": "ae",
-   "t": "UAE: Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT0lZVWxWak9jdi1td3ZFeko1cXBZNE5Ta3pMSFkwbjhldmE0VzM1RGp5ZHNyRW96emxJb1V4d1Q3YVpRWU9Va0I1c0x4QWQtbXFUMG0tNmhmUUk1SzIzUFBZaDRFNkxYZ09LcVRxWVQ2REhvdG1VdnZwSlhKdkEtRktUNi1SLU5hS2M5cUJ1X2RlTU5abnNPUjgxVjRSbWhfc1E?oc=5",
-   "s": "Middle East Online",
+   "t": "Netanyahu accused of ignoring UAE warning before October 7",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQckZ2bWxPeFFTcEN0d19hMHJxb0NNbEdYbVRPNlpXNW5vVHgzT1NKMjRXNEpxQndsQktIeTdRTWpGQ3JYX3dzNHdEWkpzOVh4VDZSU05OTXA2SURXMlB0YWQwTjNoYnlxQ1V4U0lTNzNJMUJ5TEhrNWlvV0Zmb1RtSWliM2lLVjhrWDk0XzRybUdaXzh5eHBMTXhSUkJERWJ2LTJkWUZCX2xZQ19q?oc=5",
+   "s": "UA.NEWS",
    "d": "2026-10-10",
-   "k": "emergency",
+   "k": "politics",
    "id": "ae-40",
    "n": 39
   },
@@ -906,13 +906,23 @@
   },
   {
    "c": "qa",
+   "t": "Qatar Airways sets a new benchmark for premium travel from Australia with elevated dining, world-class beverages and ultra-fast Starlink connectivity",
+   "u": "https://news.google.com/rss/articles/CBMipgJBVV95cUxORGdFWDRqSkRmSjhPd1hHQktwRUEzYmJzZXBqNWp4bzh2MHhnVGJ4UXdWN21FQWN0bTRTTURYTnhyY0tPazU0aU96d1F5ZmdINThjZ2wwOGFldG5tYjBTZ0h5ZjVpa3BhMlpOdE54Sk56U2drcGFrbXhVYWdodDhfMHE5OXVwcVhQelZOajdjQ2h4ZE5fMktyanZCaXNac3RIVzZJcFp2a0VxRENZOGJUbXB0N1k1bVFid1RHamhCUm5Uc0pVYTlQYnNaQ2hRNFdxUTdOeTBQcFNRTVFfU1BKalFJanVrY3JiTzUzdTJNeUltZGppX1AzT2FaRll5M2JDYmhXNEM2UEN1YmZJZlNZREdYeE05WG5VdXY3eDR1OWNnX2I1NUE?oc=5",
+   "s": "Sydney Times",
+   "d": "2026-10-11",
+   "k": "politics",
+   "id": "qa-6",
+   "n": 5
+  },
+  {
+   "c": "qa",
    "t": "Qatar stands by Saudi | Gulf Times",
    "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1bTRqVUJzN2FsRkZMOTRNOE9iRGtsVThjbk1BU1dYUkV6R255bDlLcVNtWVBhLTNuTVBfNDNPTE1YWHBKNFo4YVIzMGZVN1Q1Y1cxM1RHWXZvcnBJbEktSzY5WjhZMkplblpyRUpyS1lESS00SnJrdNIBfkFVX3lxTE9JUUhleWFCSnhlNS1nRkR0T3RjOEtwQUtibG0tUnZVdTI1MTNUM0RDWlB3ZldYU3ZFdl96dGlrUXZlY3BETHZicThGLUdCVTlkMFlTenpVdHhnODgzSTBDSEE3X1hTUENOS1VVZC14UlZPRWNzWlpxU0xGWUUydw?oc=5",
    "s": "Gulf Times",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "qa-6",
-   "n": 5
+   "id": "qa-7",
+   "n": 6
   },
   {
    "c": "qa",
@@ -921,8 +931,8 @@
    "s": "Qatar Tribune",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "qa-7",
-   "n": 6
+   "id": "qa-8",
+   "n": 7
   },
   {
    "c": "qa",
@@ -931,16 +941,6 @@
    "s": "Qatar Tribune",
    "d": "2026-10-11",
    "k": "politics",
-   "id": "qa-8",
-   "n": 7
-  },
-  {
-   "c": "qa",
-   "t": "Palestine Condemns Attacks on Saudi Arabia",
-   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZURqNnppU1RwUWgwOEdNcXVEOXVjcl9neU15Yi1kVTkwRV9sTzJtdWdrcEI1b1N6bU9HeW9MZURHcWxLTjBOMzhFWlNxTEZuMzJhUXBMX3R2Vjd4N0R3ZVVOc0NFM1dQNWRqeU55SUdJM0UzME82aHVDZTFWUVB6V2VKVWw3aTRPcEU2TEUtanRjNUlW?oc=5",
-   "s": "Qatar news agency",
-   "d": "2026-10-11",
-   "k": "emergency",
    "id": "qa-9",
    "n": 8
   },
@@ -1126,9 +1126,9 @@
   },
   {
    "c": "qa",
-   "t": "Qatar Foundation Presents 6th Edition of Musical Theater Production \"Showtime!\"",
-   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQejdGSDVITHlDUGc1U0I4TEREQ1gwcUFfcnl0QUh3RFNndzlTLUNRT0E1R1JRd29rdG1lT3NsQ3VRYlduMFhnZkJQblhuNWZ5azEzTS1ZNXl1X2dFclZzTlFnUFBERlhRX1BSREtxVzVNTGdQWlZDR0tLRmk1SU5MOFlPSzRmQlkzdjVqRlV5b0sxbmNqRTlzc0gxVFRrYlNtVFp5SUkxcHJSM21rWEFKS3V5N1c?oc=5",
-   "s": "Fana News -",
+   "t": "Cooper Flagg addressed potential Team USA role for 2027 FIBA World Cup in Qatar",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmVOamZ3Q0JGcVNFdm54aTNnWmhFVFN5ZzV2aDh5b0syTWdSSHU4enZpNEE1VEFRVWd5QzVabTdoVUdqanhNanpTTnUyMVJqRFg5Qk1FMnVQcldZUmNzcHZfQ0VKNUNvLUY5RW5rOGhNN0tiUHo1Q3Nma0czR1hsWGJFOWRsRTdfQnJVRXduTUdmTDktTDBTak82ZlBJeXhfU3MxYmJ6bENudTBrX2UtNVdIRjF3dktDSkQyeVJic01aX1E?oc=5",
+   "s": "Basketball Network",
    "d": "2026-10-10",
    "k": "politics",
    "id": "qa-28",
@@ -1136,9 +1136,9 @@
   },
   {
    "c": "qa",
-   "t": "Cooper Flagg addressed potential Team USA role for 2027 FIBA World Cup in Qatar",
-   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmVOamZ3Q0JGcVNFdm54aTNnWmhFVFN5ZzV2aDh5b0syTWdSSHU4enZpNEE1VEFRVWd5QzVabTdoVUdqanhNanpTTnUyMVJqRFg5Qk1FMnVQcldZUmNzcHZfQ0VKNUNvLUY5RW5rOGhNN0tiUHo1Q3Nma0czR1hsWGJFOWRsRTdfQnJVRXduTUdmTDktTDBTak82ZlBJeXhfU3MxYmJ6bENudTBrX2UtNVdIRjF3dktDSkQyeVJic01aX1E?oc=5",
-   "s": "Basketball Network",
+   "t": "Air quality in Englishtown",
+   "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NVWxvd19hTk9yNm1DZGxZa3VScTVYRlFDUVdJU3FubGhVSDdxX1VRMHp5a2Jfb0hVRmw5SXVWa2ZacmMzd2tPTTd2Q3dyTU9vOEhWbEtJQkY2U1NNLUtSVTNqbDJtQmx3TF9IdVYtR0E?oc=5",
+   "s": "IQAir",
    "d": "2026-10-10",
    "k": "politics",
    "id": "qa-29",
@@ -1156,23 +1156,13 @@
   },
   {
    "c": "qa",
-   "t": "Air quality in Englishtown",
-   "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NVWxvd19hTk9yNm1DZGxZa3VScTVYRlFDUVdJU3FubGhVSDdxX1VRMHp5a2Jfb0hVRmw5SXVWa2ZacmMzd2tPTTd2Q3dyTU9vOEhWbEtJQkY2U1NNLUtSVTNqbDJtQmx3TF9IdVYtR0E?oc=5",
-   "s": "IQAir",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "qa-31",
-   "n": 30
-  },
-  {
-   "c": "qa",
    "t": "Crisis management: Will the MotoGP head to the Qatar Desert GP or not?",
    "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOU45NzZmTkZMQjV6QXI0a0I3MmxzRlZPdHR6LW1fdnpmRjU0YS13SEJFOThvN2thc1JHVXB5T0ZiVG5UYWNNZHBkS1JhaktFY3BTd0czX2Y1TDdDQnVBWi1zWWllaUJpRU42ZjFaVGo0YTVzaEFoTGJYTUlTVzhtVGlDNHFNWm8wTmJIWjgycTVhUTl2WmV0RWVjc1M4T2dtTkVBNVRnRHF1TDQ?oc=5",
    "s": "SPEEDWEEK.com",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "qa-32",
-   "n": 31
+   "id": "qa-31",
+   "n": 30
   },
   {
    "c": "qa",
@@ -1181,8 +1171,8 @@
    "s": "ABC News - Breaking News, Latest News and Videos",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "qa-33",
-   "n": 32
+   "id": "qa-32",
+   "n": 31
   },
   {
    "c": "qa",
@@ -1191,8 +1181,8 @@
    "s": "IndexBox",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "qa-34",
-   "n": 33
+   "id": "qa-33",
+   "n": 32
   },
   {
    "c": "qa",
@@ -1201,8 +1191,8 @@
    "s": "eu.36kr.com",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "qa-35",
-   "n": 34
+   "id": "qa-34",
+   "n": 33
   },
   {
    "c": "qa",
@@ -1211,8 +1201,8 @@
    "s": "EnergyNow",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "qa-36",
-   "n": 35
+   "id": "qa-35",
+   "n": 34
   },
   {
    "c": "qa",
@@ -1221,8 +1211,8 @@
    "s": "Morocco World News",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "qa-37",
-   "n": 36
+   "id": "qa-36",
+   "n": 35
   },
   {
    "c": "qa",
@@ -1231,8 +1221,8 @@
    "s": "Zawya",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "qa-38",
-   "n": 37
+   "id": "qa-37",
+   "n": 36
   },
   {
    "c": "qa",
@@ -1241,8 +1231,8 @@
    "s": "Simple Flying",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "qa-39",
-   "n": 38
+   "id": "qa-38",
+   "n": 37
   },
   {
    "c": "qa",
@@ -1251,6 +1241,16 @@
    "s": "EnergyNow.com",
    "d": "2026-10-10",
    "k": "emergency",
+   "id": "qa-39",
+   "n": 38
+  },
+  {
+   "c": "qa",
+   "t": "Qatar Foundation presents musical theater production 'Showtime!'",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNVIxcVZwZGljVlpWbkhqS1lpMkxpNjJ5SzNhT095WFY2aTdXZ2VsUkZWdU45LUlxRE5hVnZmbGVGa0tZQkJCcWZldGFhaGoxVXJ4MlZfZE53d19oNjlGVmFSS0hybEE1T2R0WFJnM3dQYzZ4YXljX0ZKNnhuN3Y1azBmOU9YYWJtOGVxVUJYRmUzU2hlaVE4d1JJakc0OVllTmMtZHBiVEJ6TzQwLXZ3?oc=5",
+   "s": "The Peninsula Qatar",
+   "d": "2026-10-10",
+   "k": "politics",
    "id": "qa-40",
    "n": 39
   },
@@ -1336,13 +1336,23 @@
   },
   {
    "c": "kw",
+   "t": "Kuwait marks World Mental Health Day, calls for patient-centered care",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYkt0dlVEOGlYYWMwTEEyVUFGT2hON3NyMGVWcUZHbHpRbXB1bEVpUnp4SEMydHNUbzVCWTFXdTFJcGF3Y2dQRGs2bHAtOFFUYUQyNDVMZGQ5d25iYUVZMkY3TWJ4UFhLNzZfVUFMeVVzRi1XLWRldThCNnFtZUZUWFdiUGtJVW44WWk1am1obXREeFp3Q1B4enJmcG4zX0RMOE45ajNTeFBWeVd3R0ZSeWdxaGh1NlNRbWxIZ2tmcTEzX2Z0akpV0gHHAUFVX3lxTE5iS3R2VUQ4aVhhYzBMQTJVQUZPaE43c3IwZVZxRkdselFtcHVsRWlSenhIQzJ0c1RvNUJZMVd1MUlwYXdjZ1BEazZscC04UVRhRDI0NUxkZDl3bmJhRVkyRjdNYnhQWEs3Nl9VQUx5VXNGLVctZGV1OEI2cW1lRlRYV2JQa0lVbjhZaTVqbWhtdER4WndDUHh6cmZwbjNfREw4TjlqM1N4UFZ5V3dHRlJ5Z3FoaHU2U1FtbEhna2ZxMTNfZnRqSlU?oc=5",
+   "s": "Kuwait Times",
+   "d": "2026-10-10",
+   "k": "politics",
+   "id": "kw-9",
+   "n": 8
+  },
+  {
+   "c": "kw",
    "t": "Restaurant Project Was Real: Kuwait Court Acquits Expat in KD 23,000 Case",
    "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ2ppS1RSV1dCUG90NXlvQTRPM0p6T2JscHNwaDN4YmRIbXZ4c0JCQkZCbGxHS3ktandwbWt2V2JDdlRCYmxmdkNwRWw3RzhUNElZQ2xhZDhPWDBQaHRmSXF1Znp3WElIQ0EybWVpWklyeDgxbHRKek1TbXIwLW8xU3ZNNGh6MTJLWGMwSE9YdktJZnB2cHRYQnlrS1hSZy13Y1NoUzBaR2IyZUl6ckE?oc=5",
    "s": "Arab Times Kuwait News",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "kw-9",
-   "n": 8
+   "id": "kw-10",
+   "n": 9
   },
   {
    "c": "kw",
@@ -1351,8 +1361,8 @@
    "s": "وكالة الانباء العراقية (واع)",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "kw-10",
-   "n": 9
+   "id": "kw-11",
+   "n": 10
   },
   {
    "c": "kw",
@@ -1361,8 +1371,8 @@
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "kw-11",
-   "n": 10
+   "id": "kw-12",
+   "n": 11
   },
   {
    "c": "kw",
@@ -1371,23 +1381,13 @@
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "kw-12",
-   "n": 11
-  },
-  {
-   "c": "kw",
-   "t": "Kuwaitis to showcase scientific talent at Physics Olympiad",
-   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNVh4dGxGUkVxOW1CM3VTUF8zZ21hVDdtSm1RZUpVUldidnhFaEZxQlR6d1g5ODVKanNNTl9oQWhnNmFOcUV5UEdHTHFGUXRheTdfWllTcFpSQ3BOT0JMNzhvLVF1Z2NJSFE1LXJqakMtREM2Y3A4WWh1a3duVUFWRnh5UHg3MUcxM0hMX1oyT1NINnBPQTRNNWVlMHJ1OHdWZTUwWVNMeHk5bEpTeEVSc3FWYVdnQdIBugFBVV95cUxQRWMzMU56cUlidUQ0N0NhVTJGS1haYlJ3WnlCNUZWX0g0Q012Tk1uOEQ0elpOUXNhVGVzTDlQX0taN3BCRTNITmRBdU9NX3pkX2g0WWJhWWZkLU1ZeFFrM2tUQnNCWF9XYXFQSU5GWnc3SmVzeHl1Vk0tSnBqRk1NV0MzbUtoZERadWdYSnUyU3A1M1ZuOWEzSXVTVkg3bFFqbHZGeDNTUnM1WXcwWTF4YTJrRVB3YnV3N1E?oc=5",
-   "s": "Kuwait Times",
-   "d": "2026-10-10",
-   "k": "politics",
    "id": "kw-13",
    "n": 12
   },
   {
    "c": "kw",
-   "t": "Kuwait’s humanitarian aid brings hope to vulnerable communities worldwide",
-   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb3dIWW84c2sxOWMydUd0UXJNTXNZWmZITkJuTWJPZHk0TVptRXN0N3Azb2NEVlFnWlV5Nm1xcUdES05XRGZuRHF5RVBPYUl6UDBna2ZfVFh4WTNFWVNvRlQyMXVjNGRFM0JmOVNEYnpQQnpFVG1hSXkySjlRVm1WMU1tbFVZbUNBNXhDZDNYaDA1blk2NWNBQ3Q4OU5qSk9Rb0RPTzBMWG9VdVctR3Y1dnlFZ0NVRnhjaExvNmFHazlRMkFwNllKSGRpSlLSAcwBQVVfeXFMTW93SFlvOHNrMTljMnVHdFFyTU1zWVpmSE5Cbk1iT2R5NE1abUVzdDdwM29jRFZRZ1pVeTZtcXFHREtOV0RmbkRxeUVQT2FJelAwZ2tmX1RYeFkzRVlTb0ZUMjF1YzRkRTNCZjlTRGJ6UEJ6RVRtYUl5Mko5UVZtVjFNbWxVWW1DQTV4Q2QzWGgwNW5ZNjVjQUN0ODlOakpPUW9ET08wTFhvVXVXLUd2NXZ5RWdDVUZ4Y2hMbzZhR2s5UTJBcDZZSkhkaUpS?oc=5",
+   "t": "Kuwaitis to showcase scientific talent at Physics Olympiad",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRWMzMU56cUlidUQ0N0NhVTJGS1haYlJ3WnlCNUZWX0g0Q012Tk1uOEQ0elpOUXNhVGVzTDlQX0taN3BCRTNITmRBdU9NX3pkX2g0WWJhWWZkLU1ZeFFrM2tUQnNCWF9XYXFQSU5GWnc3SmVzeHl1Vk0tSnBqRk1NV0MzbUtoZERadWdYSnUyU3A1M1ZuOWEzSXVTVkg3bFFqbHZGeDNTUnM1WXcwWTF4YTJrRVB3YnV3N1HSAboBQVVfeXFMUEVjMzFOenFJYnVENDdDYVUyRktYWmJSd1p5QjVGVl9INENNdk5NbjhENHpaTlFzYVRlc0w5UF9LWjdwQkUzSE5kQXVPTV96ZF9oNFliYVlmZC1NWXhRazNrVEJzQlhfV2FxUElORlp3N0plc3h5dVZNLUpwakZNTVdDM21LaGREWnVnWEp1MlNwNTNWbjlhM0l1U1ZIN2xRamx2RngzU1JzNVl3MFkxeGEya0VQd2J1dzdR?oc=5",
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
@@ -1396,8 +1396,8 @@
   },
   {
    "c": "kw",
-   "t": "Kuwait marks World Mental Health Day, calls for patient-centered care",
-   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVFBnNjVSNldUbzEzVDBzRm5mVUlGQ0VLbkRaOGplM3VDMkhBZl9PcjFDR2JsTnBrOW0zSHlPbG1vTjhRdW9LazVKMy1Tb3cxMjAzMHF4ak43YzAyd3ZzMUxyOEdHZ1lmX3RaeGF4V2NmZmxlQmhZZ1FVVVJJeElEb2dvVEVJbk5fdXM1ODJoUVFGdjV6bGNxR2lrc1BiMFVnajF3eFBBOGx0Yk5SczlOSDNLNjJaaTZtRGllOVNvRTJzSjjSAccBQVVfeXFMTmJLdHZVRDhpWGFjMExBMlVBRk9oTjdzcjBlVnFGR2x6UW1wdWxFaVJ6eEhDMnRzVG81QlkxV3UxSXBhd2NnUERrNmxwLThRVGFEMjQ1TGRkOXduYmFFWTJGN01ieFBYSzc2X1VBTHlVc0YtVy1kZXU4QjZxbWVGVFhXYlBrSVVuOFlpNWptaG10RHhad0NQeHpyZnBuM19ETDhOOWozU3hQVnlXd0dGUnlncWhodTZTUW1sSGdrZnExM19mdGpKVQ?oc=5",
+   "t": "Kuwait’s humanitarian aid brings hope to vulnerable communities worldwide",
+   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb3dIWW84c2sxOWMydUd0UXJNTXNZWmZITkJuTWJPZHk0TVptRXN0N3Azb2NEVlFnWlV5Nm1xcUdES05XRGZuRHF5RVBPYUl6UDBna2ZfVFh4WTNFWVNvRlQyMXVjNGRFM0JmOVNEYnpQQnpFVG1hSXkySjlRVm1WMU1tbFVZbUNBNXhDZDNYaDA1blk2NWNBQ3Q4OU5qSk9Rb0RPTzBMWG9VdVctR3Y1dnlFZ0NVRnhjaExvNmFHazlRMkFwNllKSGRpSlLSAcwBQVVfeXFMTW93SFlvOHNrMTljMnVHdFFyTU1zWVpmSE5Cbk1iT2R5NE1abUVzdDdwM29jRFZRZ1pVeTZtcXFHREtOV0RmbkRxeUVQT2FJelAwZ2tmX1RYeFkzRVlTb0ZUMjF1YzRkRTNCZjlTRGJ6UEJ6RVRtYUl5Mko5UVZtVjFNbWxVWW1DQTV4Q2QzWGgwNW5ZNjVjQUN0ODlOakpPUW9ET08wTFhvVXVXLUd2NXZ5RWdDVUZ4Y2hMbzZhR2s5UTJBcDZZSkhkaUpS?oc=5",
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
@@ -1436,9 +1436,9 @@
   },
   {
    "c": "kw",
-   "t": "Kuwait participates in Global AI Summit in Amsterdam",
-   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnNzNU1ETXhIX2xrRDJDb3JQWDVmNnF6bGZBYk5PdFFEX081aHUtNnFQYl8wMWd2NFo3UzZqS3g4VlpENFRBWG53bThReHV6VDg2R1EwY3lQOUVsNmEwdENXMVNnRmkwMV9WMDZlSGVLWk13clNiZDZhbnUwaWVHa3F5ZWRhYm5ZazFYb2lQd0EwTks1S2hEeXVKV0c3RkNOX25TUEhSUGNLeUNOY2JYRkhB0gGyAUFVX3lxTE82c3M1TURNeEhfbGtEMkNvclBYNWY2cXpsZkFiTk90UURfTzVodS02cVBiXzAxZ3Y0WjdTNmpLeDhWWkQ0VEFYbndtOFF4dXpUODZHUTBjeVA5RWw2YTB0Q1cxU2dGaTAxX1YwNmVIZUtaTXdyU2JkNmFudTBpZUdrcXllZGFibllrMVhvaVB3QTBOSzVLaER5dUpXRzdGQ05fblNQSFJQY0t5Q05jYlhGSEE?oc=5",
-   "s": "Kuwait Times",
+   "t": "Iraqi Prime Minister Ali Al-Zaidi to Embark on Anticipated Gulf Tour Including Saudi Arabia and Kuwait",
+   "u": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMklUNk0yU3BpbFpJVy02RGdmWVBCTEtFd2RMeFVaQ29vaWFwWjJ5N2szQVRoTm9DOFFCNmczVVdwUWlDUjVMa21RSmhwOEFNZ1dSanJoZGoteFQ0aUNkdVBNUDlvQU1WVTJEUTVack96UzhfNXdxYTkzazlwZDJKQjFBQzZlVVlUbUM1UjR0ZS12R215NkVMci1kcDRaWnNuMFVNaFlNcWktWjhGSjZjck12cVM1LVA2aW5zT1dndmhjb2d2TzZRZ3p1RVB6WV9nNlduMTRQOV9CZS1ZcWEtdzQwMkE3WG1ITWZ1QmhHNA?oc=5",
+   "s": "صوت الإمارات",
    "d": "2026-10-10",
    "k": "politics",
    "id": "kw-19",
@@ -1446,9 +1446,9 @@
   },
   {
    "c": "kw",
-   "t": "Iraqi Prime Minister Ali Al-Zaidi to Embark on Anticipated Gulf Tour Including Saudi Arabia and Kuwait",
-   "u": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMklUNk0yU3BpbFpJVy02RGdmWVBCTEtFd2RMeFVaQ29vaWFwWjJ5N2szQVRoTm9DOFFCNmczVVdwUWlDUjVMa21RSmhwOEFNZ1dSanJoZGoteFQ0aUNkdVBNUDlvQU1WVTJEUTVack96UzhfNXdxYTkzazlwZDJKQjFBQzZlVVlUbUM1UjR0ZS12R215NkVMci1kcDRaWnNuMFVNaFlNcWktWjhGSjZjck12cVM1LVA2aW5zT1dndmhjb2d2TzZRZ3p1RVB6WV9nNlduMTRQOV9CZS1ZcWEtdzQwMkE3WG1ITWZ1QmhHNA?oc=5",
-   "s": "صوت الإمارات",
+   "t": "Kuwait participates in Global AI Summit in Amsterdam",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnNzNU1ETXhIX2xrRDJDb3JQWDVmNnF6bGZBYk5PdFFEX081aHUtNnFQYl8wMWd2NFo3UzZqS3g4VlpENFRBWG53bThReHV6VDg2R1EwY3lQOUVsNmEwdENXMVNnRmkwMV9WMDZlSGVLWk13clNiZDZhbnUwaWVHa3F5ZWRhYm5ZazFYb2lQd0EwTks1S2hEeXVKV0c3RkNOX25TUEhSUGNLeUNOY2JYRkhB0gGyAUFVX3lxTE82c3M1TURNeEhfbGtEMkNvclBYNWY2cXpsZkFiTk90UURfTzVodS02cVBiXzAxZ3Y0WjdTNmpLeDhWWkQ0VEFYbndtOFF4dXpUODZHUTBjeVA5RWw2YTB0Q1cxU2dGaTAxX1YwNmVIZUtaTXdyU2JkNmFudTBpZUdrcXllZGFibllrMVhvaVB3QTBOSzVLaER5dUpXRzdGQ05fblNQSFJQY0t5Q05jYlhGSEE?oc=5",
+   "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
    "id": "kw-20",
@@ -1576,21 +1576,21 @@
   },
   {
    "c": "kw",
-   "t": "Flydubai co-pilot planned suicide attack: Prosecutor",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaEdnMWtfSzRYa2Y5UTRoQ3QyblJwVXJ2NXY5YlZTNWtoWV9LSHhyQ3o3djhjN1lENWRTLTBlTGlac0x2RlRtSk1GRXl5R3hBOVAxZFA2RG56UGFJcWR3Uk9GZGF2OXV5dC1tczFLajlSdlR5NWNMbmh4a1FOR0FTMHNHSmxWMVNqWHFoUFdvdkJYNW00SDRuQ1l5YXZVNzNpY3JodXgxSlNTN2lwa00tdNIBsAFBVV95cUxPaEdnMWtfSzRYa2Y5UTRoQ3QyblJwVXJ2NXY5YlZTNWtoWV9LSHhyQ3o3djhjN1lENWRTLTBlTGlac0x2RlRtSk1GRXl5R3hBOVAxZFA2RG56UGFJcWR3Uk9GZGF2OXV5dC1tczFLajlSdlR5NWNMbmh4a1FOR0FTMHNHSmxWMVNqWHFoUFdvdkJYNW00SDRuQ1l5YXZVNzNpY3JodXgxSlNTN2lwa00tdA?oc=5",
-   "s": "Kuwait Times",
-   "d": "2026-10-10",
-   "k": "emergency",
-   "id": "kw-33",
-   "n": 32
-  },
-  {
-   "c": "kw",
    "t": "Kuwait University event encourages girls to explore science",
    "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGp5dEFoOFZ3WXJRNmh1MVFJTG9JWldkNUJDaGxXLVp2NHFjVkpjSEtzRDE5MVlzMjFjbGVMNXhNZUNRS09ZSkR2cGg1bnQzZl9LRHJMVVE1dmRLWXNfaFIyUWo2VXRHM2VxM2tybFI4M1YtcUR0X3prNEdaZzY1VEdGUDFkRDU2UXBTYlJxQzN6aW1DNXFyUTVPd0xYbFdYb2FtX3JMaVRXYWNi0gGsAUFVX3lxTE5Uanl0QWg4VndZclE2aHUxUUlMb0laV2Q1QkNobFctWnY0cWNWSmNIS3NEMTkxWXMyMWNsZUw1eE1lQ1FLT1lKRHZwaDVudDNmX0tEckxVUTV2ZEtZc19oUjJRajZVdEczZXEza3JsUjgzVi1xRHRfems0R1pnNjVUR0ZQMWRENTZRcFNiUnFDM3ppbUM1cXJRNU93TFhsV1hvYW1fckxpVFdhY2I?oc=5",
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
+   "id": "kw-33",
+   "n": 32
+  },
+  {
+   "c": "kw",
+   "t": "Flydubai co-pilot planned suicide attack: Prosecutor",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaEdnMWtfSzRYa2Y5UTRoQ3QyblJwVXJ2NXY5YlZTNWtoWV9LSHhyQ3o3djhjN1lENWRTLTBlTGlac0x2RlRtSk1GRXl5R3hBOVAxZFA2RG56UGFJcWR3Uk9GZGF2OXV5dC1tczFLajlSdlR5NWNMbmh4a1FOR0FTMHNHSmxWMVNqWHFoUFdvdkJYNW00SDRuQ1l5YXZVNzNpY3JodXgxSlNTN2lwa00tdNIBsAFBVV95cUxPaEdnMWtfSzRYa2Y5UTRoQ3QyblJwVXJ2NXY5YlZTNWtoWV9LSHhyQ3o3djhjN1lENWRTLTBlTGlac0x2RlRtSk1GRXl5R3hBOVAxZFA2RG56UGFJcWR3Uk9GZGF2OXV5dC1tczFLajlSdlR5NWNMbmh4a1FOR0FTMHNHSmxWMVNqWHFoUFdvdkJYNW00SDRuQ1l5YXZVNzNpY3JodXgxSlNTN2lwa00tdA?oc=5",
+   "s": "Kuwait Times",
+   "d": "2026-10-10",
+   "k": "emergency",
    "id": "kw-34",
    "n": 33
   },
@@ -1606,9 +1606,9 @@
   },
   {
    "c": "kw",
-   "t": "As species decline, green turtles offer glimmer of hope",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQzRJVnJ4N1dUUjAyLVNueEQxb1pTYV9qYklGNWlIcXEzVW9PMzh2OXRHX2lxdHNuLUotS3pkczkyQUs1MUszdm15S2hfNUlVY0FTT2xzMm5pbDJqNFVidTVzR0J0bGpVX2FoN252R0llX2hvUXBIRUN2bTRJM3JfUDRBV3Q5aUZ1U1dKaDBCdlh6T01nbFExTTMtQVdYTmI5cVHSAaYBQVVfeXFMTnVYMkxzZVg3cUM2WEhPZnJCb1BiZUllRDIySFRnc0QwVVh6OGpKRnZaWk5qbGp6SkRjMkwwcGJzSTRqYVg0V1FNSzFRdF9qOVRpVU9MbjZBMi1oazB0RGlkeDNBX2UzOF9SVndaakY2LXQySGlKOUxCR0l3dUNhVjVyRjIxVUU5RlZpLUNkZi1JMndZMU5SZ2FCSUMyaXBJSDNJQkVjUQ?oc=5",
-   "s": "Kuwait Times",
+   "t": "Tajikistan and Kuwait discuss cooperation in information technology",
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DRWxXSnl4SWl6NzRWRXRDZG1BTXU1YjBNN1FGa0psZkFTaHNWVDRuNEdaeG52b3RRRWRFUl9LcWZna2MtU0VMeDl1Z0JMR2RBSHg0VExQeW9kMWpITWxr?oc=5",
+   "s": "Trend News Agency",
    "d": "2026-10-10",
    "k": "politics",
    "id": "kw-36",
@@ -1616,9 +1616,9 @@
   },
   {
    "c": "kw",
-   "t": "Tajikistan and Kuwait discuss cooperation in information technology",
-   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DRWxXSnl4SWl6NzRWRXRDZG1BTXU1YjBNN1FGa0psZkFTaHNWVDRuNEdaeG52b3RRRWRFUl9LcWZna2MtU0VMeDl1Z0JMR2RBSHg0VExQeW9kMWpITWxr?oc=5",
-   "s": "Trend News Agency",
+   "t": "As species decline, green turtles offer glimmer of hope",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQzRJVnJ4N1dUUjAyLVNueEQxb1pTYV9qYklGNWlIcXEzVW9PMzh2OXRHX2lxdHNuLUotS3pkczkyQUs1MUszdm15S2hfNUlVY0FTT2xzMm5pbDJqNFVidTVzR0J0bGpVX2FoN252R0llX2hvUXBIRUN2bTRJM3JfUDRBV3Q5aUZ1U1dKaDBCdlh6T01nbFExTTMtQVdYTmI5cVHSAaYBQVVfeXFMTnVYMkxzZVg3cUM2WEhPZnJCb1BiZUllRDIySFRnc0QwVVh6OGpKRnZaWk5qbGp6SkRjMkwwcGJzSTRqYVg0V1FNSzFRdF9qOVRpVU9MbjZBMi1oazB0RGlkeDNBX2UzOF9SVndaakY2LXQySGlKOUxCR0l3dUNhVjVyRjIxVUU5RlZpLUNkZi1JMndZMU5SZ2FCSUMyaXBJSDNJQkVjUQ?oc=5",
+   "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
    "id": "kw-37",
@@ -1626,8 +1626,8 @@
   },
   {
    "c": "kw",
-   "t": "Arsenal back on track after Leeds scare, Chelsea run riot",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcXpoYTFpSS01LS1vVnBudXA3WlVFdEVhUVFNUWFTeHB0cGUzektUelNHNFctbUxMdDFQOGRIQ2hRbEJoN3lXUERudko3OFljSkpzQS1yeEczRWpKdzQ4dWk5VWlkOXFVWjEwbEtINkNNcXI1QXZETHI0Mjl2Z25Qd1VNaTViOFBtb2xqbF9tY1BPT2pCdFFacnRKelJyS0kwaVJ3LXNMMWc0WnBzYldKd9IBtAFBVV95cUxOMGw4aWVwanRjYXAtSlktQ2dKZ2dSOWgtQmlVRzBYbTRVWDhZaWhuSUJaZTFBLVlUT2xaNHNYQUJDVV90UVg1bEVWTnMwZFRDUzhKR1hyUExQVG9SN3NtLWtCVjlNRXN5T0x2bWlBWTFxZ1JPS0YxZnVUMDRic19mSTNFMXhub3Q4RWxKUlJ4aVFfRGJCRnBzaXV3UEFWLWlBeUplQ3E4UDFObmFhcjNPLU1WMjk?oc=5",
+   "t": "MoH undersecretary meets Children’s Hospital of Philadelphia delegation",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaHlVYVpHTEZvZG8ycDdia0hCeEE0LUZ0LUNQc0RJeFp5aTR6cV9BZWxoemc3ZWFNdzBKVHVnYmh5eHhGNGFacjJkbDFKZThnMG9Ia29Eek1RUVlPU2NoMTVuTjFxY19ZZmhTRk1qbWI4Z3ZGU0ZDaDR2RnZ4YmhlWlltdklqQndHb21FV1Rncm9lU1JicGl5TGxmVnl5eWV2WDQxLVFjODZUbWZMTnFKaXR5VGxvRkNRMGxV0gG7AUFVX3lxTE5oeVVhWkdMRm9kbzJwN2JrSEJ4QTQtRnQtQ1BzREl4WnlpNHpxX0FlbGh6ZzdlYU13MEpUdWdiaHl4eEY0YVpyMmRsMUplOGcwb0hrb0R6TVFRWU9TY2gxNW5OMXFjX1lmaFNGTWptYjhndkZTRkNoNHZGdnhiaGVaWW12SWpCd0dvbUVXVGdyb2VTUmJwaXlMbGZWeXl5ZXZYNDEtUWM4NlRtZkxOcUppdHlUbG9GQ1EwbFU?oc=5",
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
@@ -1636,8 +1636,8 @@
   },
   {
    "c": "kw",
-   "t": "MoH undersecretary meets Children’s Hospital of Philadelphia delegation",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaHlVYVpHTEZvZG8ycDdia0hCeEE0LUZ0LUNQc0RJeFp5aTR6cV9BZWxoemc3ZWFNdzBKVHVnYmh5eHhGNGFacjJkbDFKZThnMG9Ia29Eek1RUVlPU2NoMTVuTjFxY19ZZmhTRk1qbWI4Z3ZGU0ZDaDR2RnZ4YmhlWlltdklqQndHb21FV1Rncm9lU1JicGl5TGxmVnl5eWV2WDQxLVFjODZUbWZMTnFKaXR5VGxvRkNRMGxV0gG7AUFVX3lxTE5oeVVhWkdMRm9kbzJwN2JrSEJ4QTQtRnQtQ1BzREl4WnlpNHpxX0FlbGh6ZzdlYU13MEpUdWdiaHl4eEY0YVpyMmRsMUplOGcwb0hrb0R6TVFRWU9TY2gxNW5OMXFjX1lmaFNGTWptYjhndkZTRkNoNHZGdnhiaGVaWW12SWpCd0dvbUVXVGdyb2VTUmJwaXlMbGZWeXl5ZXZYNDEtUWM4NlRtZkxOcUppdHlUbG9GQ1EwbFU?oc=5",
+   "t": "Arsenal back on track after Leeds scare, Chelsea run riot",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcXpoYTFpSS01LS1vVnBudXA3WlVFdEVhUVFNUWFTeHB0cGUzektUelNHNFctbUxMdDFQOGRIQ2hRbEJoN3lXUERudko3OFljSkpzQS1yeEczRWpKdzQ4dWk5VWlkOXFVWjEwbEtINkNNcXI1QXZETHI0Mjl2Z25Qd1VNaTViOFBtb2xqbF9tY1BPT2pCdFFacnRKelJyS0kwaVJ3LXNMMWc0WnBzYldKd9IBtAFBVV95cUxOMGw4aWVwanRjYXAtSlktQ2dKZ2dSOWgtQmlVRzBYbTRVWDhZaWhuSUJaZTFBLVlUT2xaNHNYQUJDVV90UVg1bEVWTnMwZFRDUzhKR1hyUExQVG9SN3NtLWtCVjlNRXN5T0x2bWlBWTFxZ1JPS0YxZnVUMDRic19mSTNFMXhub3Q4RWxKUlJ4aVFfRGJCRnBzaXV3UEFWLWlBeUplQ3E4UDFObmFhcjNPLU1WMjk?oc=5",
    "s": "Kuwait Times",
    "d": "2026-10-10",
    "k": "politics",
@@ -1666,8 +1666,8 @@
   },
   {
    "c": "bh",
-   "t": "Bahrain to host Arab Medical Union conference next year",
-   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01NHVJQzdSY3lwVTJOd05VbDVhelJoeEJXVjFVOXBKaGQ3YjYwMGVCMlJCYUlfbHJpaWdLRUxLXzY3WllJYjFUendUYWVYbnR2YjIw?oc=5",
+   "t": "Firm foundations set for GCC deals",
+   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90VTltQWVhMVcyWnU0bWQ5UzZSWXJydnZwN3VzYkp2OWtnWDVzMlV6Z3JET1N3enptR3NSa3FSdUVDLVFuQnhXZHp4ZzdEZ090QXNr?oc=5",
    "s": "Gulf Daily News (Bahrain)",
    "d": "2026-10-11",
    "k": "politics",
@@ -1676,8 +1676,8 @@
   },
   {
    "c": "bh",
-   "t": "Firm foundations set for GCC deals",
-   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90VTltQWVhMVcyWnU0bWQ5UzZSWXJydnZwN3VzYkp2OWtnWDVzMlV6Z3JET1N3enptR3NSa3FSdUVDLVFuQnhXZHp4ZzdEZ090QXNr?oc=5",
+   "t": "Bahrain to host Arab Medical Union conference next year",
+   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01NHVJQzdSY3lwVTJOd05VbDVhelJoeEJXVjFVOXBKaGQ3YjYwMGVCMlJCYUlfbHJpaWdLRUxLXzY3WllJYjFUendUYWVYbnR2YjIw?oc=5",
    "s": "Gulf Daily News (Bahrain)",
    "d": "2026-10-11",
    "k": "politics",
@@ -1756,21 +1756,21 @@
   },
   {
    "c": "bh",
-   "t": "Other Sports: Sagesse see off Manama",
-   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MbFdZblhKTmN6dlMyZm9DZ183WFpCV1RhQ3ZtZEM4dGlOVTJWUEdLUlhLamxPSWRUUDg3RGpES0JoSVVBLVJRTXZOQ2taU3dlNTR3?oc=5",
-   "s": "Gulf Daily News (Bahrain)",
-   "d": "2026-10-11",
-   "k": "politics",
-   "id": "bh-11",
-   "n": 10
-  },
-  {
-   "c": "bh",
    "t": "KSA: 12 killed in Riyadh airport attack",
    "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOFRyR1BjanhUZ1JhZGE0RXBNZk14X01aVy00V2FnbDNhc0FmTWp4dVphaGlaVmdzc0VJeU41cjJoN3pTYTA0alI0SmRDa2R6OURKNzlwZGMzbTUzMXVtREMzbmZuTE11dDdkWHk1VmVqVnVFQVlOOXpTbXo0cnhDdXZB?oc=5",
    "s": "Gulf Daily News (Bahrain)",
    "d": "2026-10-11",
    "k": "emergency",
+   "id": "bh-11",
+   "n": 10
+  },
+  {
+   "c": "bh",
+   "t": "Other Sports: Sagesse see off Manama",
+   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MbFdZblhKTmN6dlMyZm9DZ183WFpCV1RhQ3ZtZEM4dGlOVTJWUEdLUlhLamxPSWRUUDg3RGpES0JoSVVBLVJRTXZOQ2taU3dlNTR3?oc=5",
+   "s": "Gulf Daily News (Bahrain)",
+   "d": "2026-10-11",
+   "k": "politics",
    "id": "bh-12",
    "n": 11
   },
@@ -2006,23 +2006,13 @@
   },
   {
    "c": "bh",
-   "t": "Transportation Ministry, BACA coordinate to improve access to cultural sites",
-   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDFJREhMMTZHSjBXeEUyLWl5UmJ6S2FOYXQwbGlMTVcyNG4wQzN1c0gyQUFWY1VlUERaMm9HMi1wRFVPVnFWZTBHZzJFUVRyM0t4bmZ0SUhNVHJIcjNYRU5ZZE11NWkzOEVrUk9IWjBDT2VEaGYyUm5iUXJUMHJQX2kzZ0xLd041dFZOQ0diLV9wa2hHLXV1LXlKcV91VjVfYzR6Q3hHRXFoYTMxUFNvQTYxd19mWVN4Umc?oc=5",
-   "s": "Gulf Daily News (Bahrain)",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "bh-36",
-   "n": 35
-  },
-  {
-   "c": "bh",
    "t": "UAE advances GCC industrial integration at ministerial meetings in Bahrain to build more resilient and competitive supply chains",
    "u": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOeHdtMVZ2Uk5HdG5QSk5jQXNQa201Z29UQ3hrY3kzSm1WakxPenFCQ2gwS25feWV1TElFUlpVYUZjT1VTR2Z5MHlzZU01bEpwOFIyXzQ5eXltOS1IZEtyOEVRTzdOZnBQM0lVd1AtR3U5YllPcEp3alljSC1oQVQ2c3FjRU9MQTM4QVhGYTZ1NHdCcGlvcE1UR2lvV3NIbWMzVVp5SmtucFVmWjJ4NmlVS2NhNXNxdE5wNkJMUTNxZjdvYzl5eHJHT0RxTmZvb3F4OUZDUlNpamEycjdoSWNtcVhiYkt2UmRJaFRnZ05PQTBPNlhyVlpwelJMb1ppT01oWklCcEJnYzFNc3FaNXBNWXlOdzFnSm9KZkVJZjh4UQ?oc=5",
    "s": "Zawya",
    "d": "2026-10-10",
    "k": "logistics",
-   "id": "bh-37",
-   "n": 36
+   "id": "bh-36",
+   "n": 35
   },
   {
    "c": "bh",
@@ -2031,8 +2021,8 @@
    "s": "News of Bahrain",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "bh-38",
-   "n": 37
+   "id": "bh-37",
+   "n": 36
   },
   {
    "c": "bh",
@@ -2041,8 +2031,8 @@
    "s": "News of Bahrain",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "bh-39",
-   "n": 38
+   "id": "bh-38",
+   "n": 37
   },
   {
    "c": "bh",
@@ -2051,6 +2041,16 @@
    "s": "News of Bahrain",
    "d": "2026-10-10",
    "k": "emergency",
+   "id": "bh-39",
+   "n": 38
+  },
+  {
+   "c": "bh",
+   "t": "Turkiye Bans Social Media Use for Children Under 15 From November 1",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOWRLRWFqRmFPbUhKaFpJTEZCMlI2NTY4N1VLY2twSnp6VVA4N3pHOElUZTFBbFpqazVoMVd6cDNPSDdzRUZaZVpTTGJMWmJZYW9QMlUwTWEtZERhM2hNZXgxdzcxSl84eXZxZVJ5ZDQ2QUZvT19MazdCa3lLbkJmUUVqME1QeTJxWmNpTFctVHlBa2JpRUxxcUNFNmVFckFOamxLUWt2dzZPalRt?oc=5",
+   "s": "News of Bahrain",
+   "d": "2026-10-10",
+   "k": "politics",
    "id": "bh-40",
    "n": 39
   },
@@ -2166,13 +2166,23 @@
   },
   {
    "c": "om",
+   "t": "AFC Champions League Elite",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ1BjczVQamFZYndXTXJwLUo1VWF3MUh5RjhDdV9UM3pBbXdOTHl5Yndvek55Nk84YWJBdlN3NnlDM01UYTJISVEzUUFxdnpOdTFYZmpGUTdNbWt2NHBHWmk0Rml4Q1F1RDI2RnBJYmlhWm94VzJzM1dCRmJyVE51VkdZeEdLMGZySHcwcmxzZzZudU12ZUE?oc=5",
+   "s": "Goal.com",
+   "d": "2026-10-10",
+   "k": "politics",
+   "id": "om-12",
+   "n": 11
+  },
+  {
+   "c": "om",
    "t": "Oman gears up work to launch new International Financial Centre",
    "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWXZoNWZaaE9DN294dEptZlZJZEVuQmFBY3RDbUhsdTFzNmFGdmI4bklBUHNhNzZGeGhYc01yaWpGU1JEcmFvSExHMVRGOXg2QUJDcmlDRXc3OWhONU1GSWRMUlN4UDBFMGxERXlKa3JXRkN5alBSRnBXeXN2WXpkSC1JaXgzN3lNQzktUXl0dV8wWTg4ejBEd002TXFDalFTM2xMcmlacGhLZ09MSFBhRWs3bE52cEpJMkpwVzlVVnBvM1k?oc=5",
    "s": "Zawya",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "om-12",
-   "n": 11
+   "id": "om-13",
+   "n": 12
   },
   {
    "c": "om",
@@ -2181,8 +2191,8 @@
    "s": "EnergyNow.com",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "om-13",
-   "n": 12
+   "id": "om-14",
+   "n": 13
   },
   {
    "c": "om",
@@ -2191,8 +2201,8 @@
    "s": "Arab News",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "om-14",
-   "n": 13
+   "id": "om-15",
+   "n": 14
   },
   {
    "c": "om",
@@ -2201,8 +2211,8 @@
    "s": "Oman Observer",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "om-15",
-   "n": 14
+   "id": "om-16",
+   "n": 15
   },
   {
    "c": "om",
@@ -2211,24 +2221,14 @@
    "s": "Oman Observer",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "om-16",
-   "n": 15
+   "id": "om-17",
+   "n": 16
   },
   {
    "c": "om",
    "t": "Oman, Uzbekistan discuss strengthening bilateral ties",
    "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81X1dSLU90XzBQN3RITUlJYWEwR3BwSUd5RkRJV3hJMEhkMGpEY1pjcW5YQkxrb0lTc3UwRm5neGVTbVJpWmNEQ1ZYNlBiNHlHeGMwRE1LUlJvUdIBWkFVX3lxTE81X1dSLU90XzBQN3RITUlJYWEwR3BwSUd5RkRJV3hJMEhkMGpEY1pjcW5YQkxrb0lTc3UwRm5neGVTbVJpWmNEQ1ZYNlBiNHlHeGMwRE1LUlJvUQ?oc=5",
    "s": "Oman Observer",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "om-17",
-   "n": 16
-  },
-  {
-   "c": "om",
-   "t": "AFC Champions League Elite",
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ1BjczVQamFZYndXTXJwLUo1VWF3MUh5RjhDdV9UM3pBbXdOTHl5Yndvek55Nk84YWJBdlN3NnlDM01UYTJISVEzUUFxdnpOdTFYZmpGUTdNbWt2NHBHWmk0Rml4Q1F1RDI2RnBJYmlhWm94VzJzM1dCRmJyVE51VkdZeEdLMGZySHcwcmxzZzZudU12ZUE?oc=5",
-   "s": "Goal.com",
    "d": "2026-10-10",
    "k": "politics",
    "id": "om-18",
@@ -2286,23 +2286,13 @@
   },
   {
    "c": "om",
-   "t": "Oman’s efforts to combat human trafficking stand out",
-   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUGRSMjNNZExEYWQtOUhJTWgxcElkNVI3LS1IbHdIVUNGR192ZXRRN3I1SWlmWTJGcWFGV2VJQWE1YUFTcVhHNlR1bE93ZDdEUW16dXFMOWwyVTdTeEc5Y0VLdS1kTldGRzE0VDNvQ05yWEpQMERCeC10Ukdvb2gwdktKV2s5eWRfSWVMTWJJaTYyYlgz?oc=5",
-   "s": "Times of Oman",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "om-24",
-   "n": 23
-  },
-  {
-   "c": "om",
    "t": "Oman targets RO25.4mn investment to build aviation industry",
    "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV1BpSU1iOTNhcTdwQzZEU0w0SGZ1TmNBT2x6M1MzQmxEV3ZNcXRhZllaQ1RjeWJWNW9wMDJSellSQTdOMHdaTURvQWYyclYtVko1YjNxc2t2bVBUdEI3MGFjV1Z1S0NZODYtVVZ2UG1uSTU5Z0FhRy1pMWZhSFBObTRXZnk0YkRCNUVLUEVnd2JzQmx5TExHdE13b1NYcHE1?oc=5",
    "s": "Muscat Daily",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "om-25",
-   "n": 24
+   "id": "om-24",
+   "n": 23
   },
   {
    "c": "om",
@@ -2311,8 +2301,8 @@
    "s": "Oman Observer",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "om-26",
-   "n": 25
+   "id": "om-25",
+   "n": 24
   },
   {
    "c": "om",
@@ -2321,8 +2311,8 @@
    "s": "Muscat Daily",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "om-27",
-   "n": 26
+   "id": "om-26",
+   "n": 25
   },
   {
    "c": "om",
@@ -2331,14 +2321,24 @@
    "s": "Oman Observer",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "om-28",
-   "n": 27
+   "id": "om-27",
+   "n": 26
   },
   {
    "c": "om",
    "t": "Foreign Minister Receives Phone Call from Omani Counterpart",
    "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5NNDdmUUNDeThLYW1aS3ZoLU04b29RVFY4UklmQ2phWDBobnpFLW1LRERQM1hGYzFuM1JkSDdrTTAwVmpET29Hb3Vn?oc=5",
    "s": "وكالة الأنباء السعودية",
+   "d": "2026-10-10",
+   "k": "politics",
+   "id": "om-28",
+   "n": 27
+  },
+  {
+   "c": "om",
+   "t": "Oman’s efforts to combat human trafficking stand out",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUGRSMjNNZExEYWQtOUhJTWgxcElkNVI3LS1IbHdIVUNGR192ZXRRN3I1SWlmWTJGcWFGV2VJQWE1YUFTcVhHNlR1bE93ZDdEUW16dXFMOWwyVTdTeEc5Y0VLdS1kTldGRzE0VDNvQ05yWEpQMERCeC10Ukdvb2gwdktKV2s5eWRfSWVMTWJJaTYyYlgz?oc=5",
+   "s": "Times of Oman",
    "d": "2026-10-10",
    "k": "politics",
    "id": "om-29",
@@ -2496,13 +2496,23 @@
   },
   {
    "c": "iq",
+   "t": "Iraq receives 10,222 applications to register privately owned firearms in one week",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVDVsRjE3aGNHZ0hldzFyemRoTjZmYzhEZUY1QmZXOFgteWsyZVhoQTJQRGZ6cWIyNzNmQU5LRlFPS0pQV29TTTlFNUZkOFJwbmtZWnFldTdWeVQwdUFPZzAxeXJCa0owV2ZvTDBSWVRJbXk1cXk1QVBiSHI4SDVVM1VnNTdJN25BVWc3X3Q4UDhCdDR3MTg1bnJ4eUZIVkN4bDloaFhrQklyS00?oc=5",
+   "s": "The Insight International",
+   "d": "2026-10-11",
+   "k": "politics",
+   "id": "iq-5",
+   "n": 4
+  },
+  {
+   "c": "iq",
    "t": "Nechirvan Barzani tells AUIS graduates the Kurdistan Region’s true wealth is people, not oil",
    "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWERpbWRyLXZOLTlUNzdpUlNnY0dpaXoyNHVhWXJjMF9kY2lpLXNBemF0bmxHZFlvcndIZWlQUlhaY01aZEoyMnZIMzVKLWFfRWZ4LURQdzRsVkdIZlV4NHlfSWMzanh0MzZHdVdBUS1RM1ZvaFZUQWFlUlQ3aEc3aEJlV0d0ekVQcDRhX2I5alN3NzVWdTJUdll6ZnBwbk9SRF91Nmo4YVhneXpUQzJEeWxZTQ?oc=5",
    "s": "The Insight International",
    "d": "2026-10-11",
    "k": "economy",
-   "id": "iq-5",
-   "n": 4
+   "id": "iq-6",
+   "n": 5
   },
   {
    "c": "iq",
@@ -2511,8 +2521,8 @@
    "s": "The Jerusalem Post",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "iq-6",
-   "n": 5
+   "id": "iq-7",
+   "n": 6
   },
   {
    "c": "iq",
@@ -2521,8 +2531,8 @@
    "s": "Crescent International",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-7",
-   "n": 6
+   "id": "iq-8",
+   "n": 7
   },
   {
    "c": "iq",
@@ -2531,8 +2541,8 @@
    "s": "EnergyNow.com",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-8",
-   "n": 7
+   "id": "iq-9",
+   "n": 8
   },
   {
    "c": "iq",
@@ -2541,8 +2551,8 @@
    "s": "Eurasia Review",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-9",
-   "n": 8
+   "id": "iq-10",
+   "n": 9
   },
   {
    "c": "iq",
@@ -2551,8 +2561,8 @@
    "s": "وزارة الخارجية العراقية",
    "d": "2026-10-10",
    "k": "turkey",
-   "id": "iq-10",
-   "n": 9
+   "id": "iq-11",
+   "n": 10
   },
   {
    "c": "iq",
@@ -2561,8 +2571,8 @@
    "s": "IraqiNews",
    "d": "2026-10-10",
    "k": "turkey",
-   "id": "iq-11",
-   "n": 10
+   "id": "iq-12",
+   "n": 11
   },
   {
    "c": "iq",
@@ -2571,8 +2581,8 @@
    "s": "Al-Monitor",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-12",
-   "n": 11
+   "id": "iq-13",
+   "n": 12
   },
   {
    "c": "iq",
@@ -2581,8 +2591,8 @@
    "s": "The National",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-13",
-   "n": 12
+   "id": "iq-14",
+   "n": 13
   },
   {
    "c": "iq",
@@ -2591,8 +2601,8 @@
    "s": "Submarine Networks",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-14",
-   "n": 13
+   "id": "iq-15",
+   "n": 14
   },
   {
    "c": "iq",
@@ -2601,8 +2611,8 @@
    "s": "کوردستان 24",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-15",
-   "n": 14
+   "id": "iq-16",
+   "n": 15
   },
   {
    "c": "iq",
@@ -2611,8 +2621,8 @@
    "s": "EnergyNow.com",
    "d": "2026-10-10",
    "k": "logistics",
-   "id": "iq-16",
-   "n": 15
+   "id": "iq-17",
+   "n": 16
   },
   {
    "c": "iq",
@@ -2621,8 +2631,8 @@
    "s": "کردپرس",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-17",
-   "n": 16
+   "id": "iq-18",
+   "n": 17
   },
   {
    "c": "iq",
@@ -2631,8 +2641,8 @@
    "s": "EnergyNow",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "iq-18",
-   "n": 17
+   "id": "iq-19",
+   "n": 18
   },
   {
    "c": "iq",
@@ -2641,8 +2651,8 @@
    "s": "IraqiNews",
    "d": "2026-10-10",
    "k": "tax",
-   "id": "iq-19",
-   "n": 18
+   "id": "iq-20",
+   "n": 19
   },
   {
    "c": "iq",
@@ -2651,8 +2661,8 @@
    "s": "شفق نيوز",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "iq-20",
-   "n": 19
+   "id": "iq-21",
+   "n": 20
   },
   {
    "c": "iq",
@@ -2661,8 +2671,8 @@
    "s": "Kurdistan24",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-21",
-   "n": 20
+   "id": "iq-22",
+   "n": 21
   },
   {
    "c": "iq",
@@ -2671,8 +2681,8 @@
    "s": "IraqiNews",
    "d": "2026-10-10",
    "k": "turkey",
-   "id": "iq-22",
-   "n": 21
+   "id": "iq-23",
+   "n": 22
   },
   {
    "c": "iq",
@@ -2681,8 +2691,8 @@
    "s": "Kurdistan24",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-23",
-   "n": 22
+   "id": "iq-24",
+   "n": 23
   },
   {
    "c": "iq",
@@ -2691,8 +2701,8 @@
    "s": "The New Region",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-24",
-   "n": 23
+   "id": "iq-25",
+   "n": 24
   },
   {
    "c": "iq",
@@ -2701,8 +2711,8 @@
    "s": "Kurdistan24",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-25",
-   "n": 24
+   "id": "iq-26",
+   "n": 25
   },
   {
    "c": "iq",
@@ -2711,8 +2721,8 @@
    "s": "thecradle.co",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-26",
-   "n": 25
+   "id": "iq-27",
+   "n": 26
   },
   {
    "c": "iq",
@@ -2721,8 +2731,8 @@
    "s": "شفق نيوز",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-27",
-   "n": 26
+   "id": "iq-28",
+   "n": 27
   },
   {
    "c": "iq",
@@ -2731,8 +2741,8 @@
    "s": "کردپرس",
    "d": "2026-10-10",
    "k": "economy",
-   "id": "iq-28",
-   "n": 27
+   "id": "iq-29",
+   "n": 28
   },
   {
    "c": "iq",
@@ -2741,8 +2751,8 @@
    "s": "شفق نيوز",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-29",
-   "n": 28
+   "id": "iq-30",
+   "n": 29
   },
   {
    "c": "iq",
@@ -2751,8 +2761,8 @@
    "s": "964media",
    "d": "2026-10-10",
    "k": "turkey",
-   "id": "iq-30",
-   "n": 29
+   "id": "iq-31",
+   "n": 30
   },
   {
    "c": "iq",
@@ -2761,8 +2771,8 @@
    "s": "IraqiNews",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-31",
-   "n": 30
+   "id": "iq-32",
+   "n": 31
   },
   {
    "c": "iq",
@@ -2771,8 +2781,8 @@
    "s": "شفق نيوز",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-32",
-   "n": 31
+   "id": "iq-33",
+   "n": 32
   },
   {
    "c": "iq",
@@ -2781,8 +2791,8 @@
    "s": "شفق نيوز",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-33",
-   "n": 32
+   "id": "iq-34",
+   "n": 33
   },
   {
    "c": "iq",
@@ -2791,8 +2801,8 @@
    "s": "شفق نيوز",
    "d": "2026-10-10",
    "k": "politics",
-   "id": "iq-34",
-   "n": 33
+   "id": "iq-35",
+   "n": 34
   },
   {
    "c": "iq",
@@ -2801,24 +2811,14 @@
    "s": "The Times of India",
    "d": "2026-10-10",
    "k": "emergency",
-   "id": "iq-35",
-   "n": 34
+   "id": "iq-36",
+   "n": 35
   },
   {
    "c": "iq",
    "t": "Shafaq News..Dinar devaluation puts 4M Iraqi workers at risk",
    "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcnFERk9DMmxxWWtyb1htOVVGVHpxVzJIaFNzdU5PVHAzanpuekpkRkk1RmJuLU9GODdoM3VIcFVEcER1cmVER1M3R1RMVklFbDl0X2lWSndFZ2lhVVlfdWRBYWFPelUwbF8tU0E2WTFwVWRPZTctMjlQZnRMWFlxYl9oSQ?oc=5",
    "s": "شفق نيوز",
-   "d": "2026-10-10",
-   "k": "politics",
-   "id": "iq-36",
-   "n": 35
-  },
-  {
-   "c": "iq",
-   "t": "Iraq’s State of Law Warns Against Provoking US Over Flag Incident",
-   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ydC1oS1U3RW0yTFdFNzNybks1NU9lT0JQUk5pRWxvT05CamdRelhvdlRuX2JqbFp1Q2ZqdWJ5MVNvOC1rYmZfRk9jUkRWdHpJ?oc=5",
-   "s": "باسنیوز",
    "d": "2026-10-10",
    "k": "politics",
    "id": "iq-37",
@@ -2836,9 +2836,9 @@
   },
   {
    "c": "iq",
-   "t": "Shafaq News..Al-Sulaymaniyah steps up food checks after dollar hike",
-   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWVScTdUNHJwd0t5LXRFUmNaTjFWaXFWdGlma3M4TUV3RFRZdDJEU243SThZcW9mM1RUTF9oaDhRX0RHcGZhbFJld29RNHVreGxGTE9JODdoVFlialBkTXpfeVMwcXdOR1kxWjBCci12SHpDS2VHeXFseFRHa0VNaEhBT3NMcDFoZUNWZDhESQ?oc=5",
-   "s": "شفق نيوز",
+   "t": "Iraq’s State of Law Warns Against Provoking US Over Flag Incident",
+   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ydC1oS1U3RW0yTFdFNzNybks1NU9lT0JQUk5pRWxvT05CamdRelhvdlRuX2JqbFp1Q2ZqdWJ5MVNvOC1rYmZfRk9jUkRWdHpJ?oc=5",
+   "s": "باسنیوز",
    "d": "2026-10-10",
    "k": "politics",
    "id": "iq-39",
@@ -2846,11 +2846,11 @@
   },
   {
    "c": "iq",
-   "t": "Chinese hit movie on Iraq war premieres in N.America",
-   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQjQ4RWxBejRlTEFNVl9wdEV6dHc4bDRzNUEyRmtJVlVVSjh4SVkxc0trVE9vZm9TZHhESllGejdheUwyQ3BCdTdlYnRtenc4OHN0UHFUQkJKbFJSbWlCVmwzalNuZHpJTVZXVGFhU280bTJHbXlvb2k0dkhDcGI2M0xIVW5mbklIQVhYRjJRYmlPWk1MY3NDUExtMXVRbEh4WXRF?oc=5",
-   "s": "RTHK",
+   "t": "Shafaq News..Al-Sulaymaniyah steps up food checks after dollar hike",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWVScTdUNHJwd0t5LXRFUmNaTjFWaXFWdGlma3M4TUV3RFRZdDJEU243SThZcW9mM1RUTF9oaDhRX0RHcGZhbFJld29RNHVreGxGTE9JODdoVFlialBkTXpfeVMwcXdOR1kxWjBCci12SHpDS2VHeXFseFRHa0VNaEhBT3NMcDFoZUNWZDhESQ?oc=5",
+   "s": "شفق نيوز",
    "d": "2026-10-10",
-   "k": "emergency",
+   "k": "politics",
    "id": "iq-40",
    "n": 39
   }
