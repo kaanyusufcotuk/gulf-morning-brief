@@ -1228,7 +1228,8 @@
    "d": "2026-10-12",
    "k": "politics",
    "id": "qa-37",
-   "n": 36
+   "n": 36,
+   "iu": "https://inflow.ws/hj248o"
   },
   {
    "c": "qa",
@@ -2876,5 +2877,5 @@
   "Covers October 9–12, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-12T09:49:47.542Z"
+ "curatedAt": "2026-10-12T09:51:42.729Z"
 }
