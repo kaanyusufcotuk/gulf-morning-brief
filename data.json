@@ -2528,7 +2528,8 @@
    "d": "2026-10-12",
    "k": "logistics",
    "id": "iq-6",
-   "n": 5
+   "n": 5,
+   "iu": "https://inflow.ws/4tcyx5"
   },
   {
    "c": "iq",
@@ -2894,5 +2895,5 @@
   "Covers October 9–12, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-12T09:56:09.491Z"
+ "curatedAt": "2026-10-12T09:56:29.613Z"
 }
