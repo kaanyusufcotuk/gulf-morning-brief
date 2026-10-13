@@ -2525,7 +2525,8 @@
    "d": "2026-10-13",
    "k": "economy",
    "id": "iq-6",
-   "n": 5
+   "n": 5,
+   "iu": "https://inflow.ws/c8v6z9"
   },
   {
    "c": "iq",
@@ -2887,5 +2888,5 @@
   "Covers October 12–13, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-13T08:38:20.810Z"
+ "curatedAt": "2026-10-13T08:38:28.196Z"
 }
