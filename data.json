@@ -2433,7 +2433,8 @@
    "d": "2026-10-12",
    "k": "emergency",
    "id": "om-37",
-   "n": 36
+   "n": 36,
+   "iu": "https://inflow.ws/yrlgn2"
   },
   {
    "c": "om",
@@ -2877,11 +2878,12 @@
   "kw-12",
   "bh-18",
   "bh-11",
-  "om-37"
+  "om-37",
+  "om-22"
  ],
  "footer": [
   "Covers October 12–13, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-13T08:37:14.902Z"
+ "curatedAt": "2026-10-13T08:37:36.428Z"
 }
