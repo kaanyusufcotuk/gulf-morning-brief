@@ -2866,7 +2866,8 @@
    "d": "2026-10-12",
    "k": "turkey",
    "id": "iq-40",
-   "n": 39
+   "n": 39,
+   "iu": "https://inflow.ws/mj373n"
   }
  ],
  "selected": [
@@ -2889,5 +2890,5 @@
   "Covers October 12–13, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-13T08:39:27.689Z"
+ "curatedAt": "2026-10-13T08:39:42.677Z"
 }
