@@ -506,7 +506,8 @@
    "d": "2026-10-14",
    "k": "emergency",
    "id": "ae-5",
-   "n": 4
+   "n": 4,
+   "iu": "https://inflow.ws/akebbn"
   },
   {
    "c": "ae",
@@ -2886,11 +2887,12 @@
   "om-9",
   "iq-4",
   "iq-17",
-  "ae-5"
+  "ae-5",
+  "ae-29"
  ],
  "footer": [
   "Covers October 13–14, 2026. Stories were gathered automatically from Google News search, English-language results only.",
   "Headline links open the story through Google News, which forwards to the publisher."
  ],
- "curatedAt": "2026-10-14T09:36:40.116Z"
+ "curatedAt": "2026-10-14T09:37:48.685Z"
 }
